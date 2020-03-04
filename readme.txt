@@ -1,0 +1,2 @@
+This is an integrated circuit. 5 bit adder is implemented with Magic Layout tool. You can test this adder with given spice files or re-create spice files by extracting all .mag files.
+By the way, Spice is circuit simulator 

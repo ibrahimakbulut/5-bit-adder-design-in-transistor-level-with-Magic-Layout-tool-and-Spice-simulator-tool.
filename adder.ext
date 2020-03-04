@@ -1,0 +1,104 @@
+timestamp 1579044328
+version 8.2
+tech scmos
+style TSMC0.25um(tsmc25)from:t11y
+scale 1000 1 12
+resistclasses 4600 3500 1067000 1067000 1 4000 4000 80 80 80 80 40
+use xor2 xor2_0 1 0 5 0 1 68
+use xor2 xor2_1 1 0 144 0 1 68
+use nand2 nand2_1 1 0 -48 0 1 -61
+use nand2 nand2_2 1 0 4 0 1 -61
+use nand2 nand2_0 1 0 70 0 1 -62
+node "m1_21_n27#" 1 206.208 21 -27 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 170 78 0 0 0 0 0 0 0 0
+node "m1_n31_n26#" 0 112.128 -31 -26 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80 48 0 0 0 0 0 0 0 0
+node "sum" 0 66.48 202 45 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 30 0 0 0 0 0 0 0 0
+node "a_5_n84#" 42 498.102 5 -84 pm12c 0 0 0 0 0 0 0 0 0 0 66 56 0 0 50 40 500 236 0 0 0 0 0 0
+node "a_n5_n56#" 6 235.154 -5 -56 pc 0 0 0 0 0 0 0 0 0 0 20 18 0 0 124 70 0 0 0 0 0 0 0 0
+node "cout" 10 823.355 47 -49 pm12c 0 0 0 0 0 0 0 0 0 0 35 24 0 0 192 90 1235 504 0 0 0 0 0 0
+node "vdd" 13 915.132 -68 -27 pm12c 0 0 0 0 0 0 0 0 0 0 25 20 0 0 25 20 1771 874 0 0 0 0 0 0
+node "a_59_n19#" 37 998.048 59 -19 pc 0 0 0 0 0 0 0 0 0 0 46 44 0 0 640 328 0 0 0 0 0 0 0 0
+node "bin" 27 1097.74 -53 -19 pc 0 0 0 0 0 0 0 0 0 0 32 32 0 0 760 388 0 0 0 0 0 0 0 0
+node "gnd" 35 2739.06 37 -62 pm12c 0 0 0 0 0 0 0 0 0 0 75 50 0 0 1976 934 325 150 0 0 0 0 0 0
+node "cin" 48 1620 48 127 pm12c 0 0 0 0 0 0 0 0 0 0 73 60 0 0 803 416 894 362 0 0 0 0 0 0
+node "ain" 43 788.725 -76 135 pm12c 0 0 0 0 0 0 0 0 0 0 66 56 0 0 146 88 919 390 0 0 0 0 0 0
+cap "ain" "vdd" 47.064
+cap "gnd" "cout" 260.767
+cap "bin" "vdd" 68.73
+cap "gnd" "a_5_n84#" 149.124
+cap "gnd" "m1_21_n27#" 45.78
+cap "cout" "a_5_n84#" 58.83
+cap "cin" "a_59_n19#" 221.056
+cap "ain" "bin" 188.642
+cap "cin" "vdd" 104.564
+subcap "a_5_n84#" -369.784
+subcap "vdd" -556.296
+subcap "bin" -612.888
+cap "nand2_1/a" "nand2_1/b" 2.84217e-14
+cap "nand2_1/vdd" "nand2_1/w_n15_7#" 0.013
+cap "nand2_1/out" "nand2_2/out" 54.984
+cap "nand2_1/a" "nand2_1/vdd" 213.5
+cap "nand2_1/out" "gnd" 41.238
+cap "nand2_1/a" "nand2_1/w_n15_7#" 19.888
+cap "nand2_2/b" "gnd" 36.67
+cap "nand2_1/out" "nand2_1/vdd" 41.238
+cap "nand2_1/out" "nand2_2/w_n15_7#" 50.421
+cap "nand2_1/b" "xor2_0/ain" 112.826
+cap "nand2_1/b" "nand2_1/vdd" 89.786
+cap "nand2_1/b" "nand2_1/w_n15_7#" 19.888
+cap "nand2_1/a" "xor2_0/ain" 98.9712
+subcap "cout" -336.972
+subcap "a_59_n19#" -577.384
+subcap "gnd" -1801.43
+cap "cout" "nand2_2/a" 11.7823
+cap "nand2_0/a" "cout" 9.156
+cap "nand2_0/a" "nand2_2/vdd" 62.294
+cap "cout" "nand2_2/b" 43.566
+cap "cout" "nand2_2/vdd" 124.456
+cap "nand2_2/gnd" "nand2_2/b" 38.266
+cap "xor2_0/gnd" "nand2_2/b" 102.13
+cap "xor2_0/gnd" "nand2_2/vdd" 1.42109e-14
+cap "nand2_0/w_n15_7#" "nand2_0/b" 19.888
+cap "nand2_0/a" "nand2_0/w_n15_7#" 19.888
+cap "nand2_2/w_n15_7#" "nand2_2/vdd" 1.336
+cap "nand2_0/w_n15_7#" "nand2_2/b" 5.546
+cap "nand2_0/a" "nand2_0/b" -7.10543e-15
+cap "nand2_0/w_n15_7#" "nand2_2/vdd" -10.144
+cap "nand2_0/w_n15_7#" "cout" 30.612
+cap "nand2_0/b" "nand2_2/vdd" 89.786
+cap "nand2_0/b" "cout" 9.156
+cap "xor2_1/nand2_2/a" "cin" 470.64
+cap "xor2_0/out_x" "xor2_0/gnd" 54.984
+cap "xor2_0/out_x" "xor2_0/nand2_4/vdd" 54.984
+subcap "sum" -35.776
+subcap "ain" -45.771
+cap "ain" "bin" 7.10543e-14
+subcap "cin" -955.969
+cap "xor2_1/bin" "xor2_1/ain" -8.52651e-14
+cap "vdd" "xor2_1/bin" 58.83
+merge "xor2_1/ain" "xor2_0/out_x" -57.428 0 0 0 0 0 0 0 0 0 0 0 -4 0 0 -4 -18 0 0 0 0 0 0 0 0
+merge "xor2_0/out_x" "nand2_0/a"
+merge "nand2_0/a" "a_59_n19#"
+merge "xor2_1/gnd" "nand2_0/gnd" -50.957 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4 -26 35 -32 0 0 0 0 0 0
+merge "nand2_0/gnd" "xor2_0/gnd"
+merge "xor2_0/gnd" "nand2_2/gnd"
+merge "nand2_2/gnd" "nand2_1/gnd"
+merge "nand2_1/gnd" "gnd"
+merge "xor2_0/bin" "nand2_1/b" -52.21 0 0 0 0 0 0 0 0 0 0 0 -4 0 0 0 -8 0 0 0 0 0 0 0 0
+merge "nand2_1/b" "ain"
+merge "xor2_1/vdd" "xor2_0/vdd" -217.528 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -400 -216 0 0 0 0 0 0
+merge "xor2_0/vdd" "nand2_0/vdd"
+merge "nand2_0/vdd" "nand2_2/vdd"
+merge "nand2_2/vdd" "nand2_1/vdd"
+merge "nand2_1/vdd" "vdd"
+merge "vdd" "m1_n31_n26#"
+merge "m1_n31_n26#" "m1_21_n27#"
+merge "nand2_2/out" "cout" -226.683 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 -285 -181 0 0 0 0 0 0
+merge "xor2_0/ain" "nand2_1/a" -41.668 0 0 0 0 0 0 0 0 0 0 0 -4 0 0 0 -8 0 0 0 0 0 0 0 0
+merge "nand2_1/a" "bin"
+merge "xor2_1/bin" "nand2_0/b" -294.479 0 0 0 0 0 0 0 0 0 0 -2 -6 0 0 0 -8 -611 -247 0 0 0 0 0 0
+merge "nand2_0/b" "cin"
+merge "nand2_2/a" "nand2_1/out" -88.637 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 -8 0 0 0 0 0 0 0 0
+merge "nand2_1/out" "a_n5_n56#"
+merge "xor2_1/out_x" "sum" -6.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 -10 0 0 0 0 0 0 0 0
+merge "nand2_0/out" "nand2_2/b" -46.904 0 0 0 0 0 0 0 0 0 0 0 -4 0 0 0 -8 0 0 0 0 0 0 0 0
+merge "nand2_2/b" "a_5_n84#"

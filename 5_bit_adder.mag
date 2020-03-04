@@ -1,0 +1,106 @@
+magic
+tech scmos
+timestamp 1579048807
+<< metal1 >>
+rect -72 204 -70 208
+rect 236 204 248 208
+rect 553 204 566 208
+rect 871 204 884 208
+rect 1189 204 1202 208
+rect 212 195 248 200
+rect 533 195 566 200
+rect 848 196 884 201
+rect 1166 194 1202 200
+rect -62 189 -60 193
+rect 256 189 258 193
+rect 574 189 576 193
+rect 892 189 894 193
+rect 1210 189 1212 193
+rect -62 174 -60 178
+rect 256 174 258 178
+rect 574 174 576 178
+rect 892 174 894 178
+rect 1210 174 1212 178
+rect 236 99 242 103
+rect 554 99 561 103
+rect 872 99 878 103
+rect 1190 99 1196 103
+rect 1508 99 1510 103
+rect 238 -19 242 99
+rect 557 -18 561 99
+rect 874 -23 878 99
+rect 1192 -23 1196 99
+rect -70 -37 -68 -33
+rect 226 -37 250 -33
+rect 544 -37 568 -33
+rect 862 -37 886 -33
+rect 1180 -37 1204 -33
+<< m2contact >>
+rect 248 195 253 200
+<< pm12contact >>
+rect 230 204 236 209
+rect 548 203 553 208
+rect 866 204 871 209
+rect 1184 203 1189 208
+rect 207 195 212 200
+rect 528 195 533 200
+rect 566 195 571 200
+rect 843 196 848 201
+rect 884 196 889 201
+rect 1161 194 1166 200
+rect 1202 194 1207 200
+<< metal2 >>
+rect -72 199 -70 203
+rect 207 194 211 195
+rect 148 190 211 194
+rect 230 92 235 204
+rect 528 194 533 195
+rect 466 190 533 194
+rect 548 92 553 203
+rect 843 194 848 196
+rect 784 190 848 194
+rect 866 92 871 204
+rect 1102 190 1166 194
+rect 1184 92 1189 203
+rect 1502 92 1507 94
+use adder  adder_0
+timestamp 1579044328
+transform 1 0 23 0 1 54
+box -93 -91 213 154
+use adder  adder_1
+timestamp 1579044328
+transform 1 0 341 0 1 54
+box -93 -91 213 154
+use adder  adder_2
+timestamp 1579044328
+transform 1 0 659 0 1 54
+box -93 -91 213 154
+use adder  adder_3
+timestamp 1579044328
+transform 1 0 977 0 1 54
+box -93 -91 213 154
+use adder  adder_4
+timestamp 1579044328
+transform 1 0 1295 0 1 54
+box -93 -91 213 154
+<< labels >>
+rlabel metal1 -61 176 -61 176 1 b0
+rlabel metal1 -61 191 -61 191 1 a0
+rlabel metal1 -71 206 -71 206 4 cin0
+rlabel metal1 257 191 257 191 1 a1
+rlabel metal1 257 176 257 176 1 b1
+rlabel metal1 240 -18 240 -18 1 s0
+rlabel metal1 -69 -35 -69 -35 2 gnd
+rlabel metal2 -71 201 -71 201 3 vdd
+rlabel metal1 575 191 575 191 1 a2
+rlabel metal1 575 176 575 176 1 b2
+rlabel metal1 559 -17 559 -17 1 s1
+rlabel metal1 893 191 893 191 1 a3
+rlabel metal1 893 176 893 176 1 b3
+rlabel metal1 876 -22 876 -22 1 s2
+rlabel metal1 1211 191 1211 191 1 a4
+rlabel metal1 1211 176 1211 176 1 b4
+rlabel metal1 1194 -21 1194 -21 1 s3
+rlabel metal2 1504 93 1504 93 7 cout
+rlabel metal1 1509 101 1509 101 7 s4
+<< end >>

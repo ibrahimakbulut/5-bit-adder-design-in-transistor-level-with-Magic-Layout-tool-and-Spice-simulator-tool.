@@ -1,0 +1,87 @@
+magic
+tech scmos
+timestamp 1579041276
+<< polysilicon >>
+rect -46 44 -44 52
+rect -38 44 -36 52
+rect 3 44 5 52
+rect 37 6 39 15
+rect -46 -22 -44 -14
+rect -38 -22 -36 -14
+rect 43 -47 45 -38
+rect 1 -74 3 -66
+<< polycontact >>
+rect -47 52 -43 56
+rect -39 52 -35 56
+rect 2 52 6 56
+rect -9 15 -5 19
+rect 36 15 40 19
+rect -9 -51 -5 -47
+rect 42 -51 46 -47
+rect 0 -78 4 -74
+<< metal1 >>
+rect -67 59 -63 63
+rect -58 59 6 63
+rect 2 56 6 59
+rect -67 52 -47 56
+rect -43 52 -39 56
+rect -35 52 -34 56
+rect -66 -74 -61 52
+rect -25 15 -9 19
+rect 16 15 36 19
+rect -25 -5 -16 -1
+rect 58 -23 59 -19
+rect -25 -51 -9 -47
+rect 16 -51 42 -47
+rect -25 -71 -16 -67
+rect 16 -71 21 -67
+rect -66 -78 0 -74
+<< pm12contact >>
+rect -63 59 -58 64
+rect -25 45 -16 50
+rect 21 7 26 12
+rect 16 -5 21 0
+rect -48 -14 -43 -9
+rect -39 -14 -34 -9
+rect -25 -21 -16 -16
+rect 21 -43 26 -38
+rect 21 -71 26 -66
+<< metal2 >>
+rect -63 -10 -58 59
+rect -23 50 -19 64
+rect -23 11 -19 45
+rect -23 7 21 11
+rect -63 -14 -48 -10
+rect -43 -14 -39 -9
+rect -23 -16 -19 7
+rect 21 -38 26 0
+rect 21 -65 26 -43
+rect 21 -66 59 -65
+rect 26 -71 59 -66
+use nand2  nand2_0
+timestamp 1579026266
+transform 1 0 -42 0 1 10
+box -15 -15 17 39
+use nand2  nand2_1
+timestamp 1579026266
+transform 1 0 -1 0 1 10
+box -15 -15 17 39
+use nand2  nand2_2
+timestamp 1579026266
+transform 1 0 -42 0 1 -56
+box -15 -15 17 39
+use nand2  nand2_3
+timestamp 1579026266
+transform 1 0 -1 0 1 -56
+box -15 -15 17 39
+use nand2  nand2_4
+timestamp 1579026266
+transform 1 0 41 0 1 -28
+box -15 -15 17 39
+<< labels >>
+rlabel metal1 -67 53 -67 53 4 ain
+rlabel metal1 -67 61 -67 61 4 bin
+rlabel metal1 59 -21 59 -21 7 out_x
+rlabel metal2 59 -68 59 -68 7 gnd
+rlabel metal2 -21 64 -21 64 5 vdd
+<< end >>

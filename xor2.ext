@@ -1,0 +1,102 @@
+timestamp 1579041276
+version 8.2
+tech scmos
+style TSMC0.25um(tsmc25)from:t11y
+scale 1000 1 12
+resistclasses 4600 3500 1067000 1067000 1 4000 4000 80 80 80 80 40
+use nand2 nand2_0 1 0 -42 0 1 10
+use nand2 nand2_1 1 0 -1 0 1 10
+use nand2 nand2_2 1 0 -42 0 1 -56
+use nand2 nand2_3 1 0 -1 0 1 -56
+use nand2 nand2_4 1 0 41 0 1 -28
+node "m1_n25_n71#" 0 56.336 -25 -71 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 26 0 0 0 0 0 0 0 0
+node "out_x" 0 15.76 58 -23 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 10 0 0 0 0 0 0 0 0
+node "m1_n25_n5#" 0 56.336 -25 -5 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36 26 0 0 0 0 0 0 0 0
+node "a_n9_n51#" 4 170.352 -9 -51 pc 0 0 0 0 0 0 0 0 0 0 16 16 0 0 80 48 0 0 0 0 0 0 0 0
+node "a_42_n51#" 26 294.702 42 -51 pc 0 0 0 0 0 0 0 0 0 0 34 34 0 0 120 68 0 0 0 0 0 0 0 0
+node "gnd" 42 591.229 16 -5 pm12c 0 0 0 0 0 0 0 0 0 0 75 60 0 0 95 70 578 228 0 0 0 0 0 0
+node "a_36_15#" 26 264.27 36 15 pc 0 0 0 0 0 0 0 0 0 0 34 34 0 0 96 56 0 0 0 0 0 0 0 0
+node "a_n9_15#" 4 170.352 -9 15 pc 0 0 0 0 0 0 0 0 0 0 16 16 0 0 80 48 0 0 0 0 0 0 0 0
+node "vdd" 45 700.514 -25 -21 pm12c 0 0 0 0 0 0 0 0 0 0 115 76 0 0 115 76 575 290 0 0 0 0 0 0
+node "ain" 92 1615.23 -47 52 pc 0 0 0 0 0 0 0 0 0 0 96 96 0 0 1042 464 0 0 0 0 0 0 0 0
+node "bin" 106 1111.88 -63 59 pm12c 0 0 0 0 0 0 0 0 0 0 139 124 0 0 375 210 500 216 0 0 0 0 0 0
+cap "vdd" "a_36_15#" 68.73
+cap "vdd" "gnd" 67.2343
+cap "ain" "m1_n25_n71#" 123.714
+cap "vdd" "m1_n25_n5#" 33.968
+cap "gnd" "a_42_n51#" 91.0895
+cap "ain" "bin" 773.396
+cap "bin" "vdd" 33.968
+cap "vdd" "a_n9_15#" 33.968
+subcap "a_36_15#" -289.342
+subcap "vdd" -127.96
+cap "nand2_3/b" "nand2_0/gnd" 818.324
+cap "nand2_2/vdd" "nand2_2/a" 179.572
+cap "nand2_2/out" "nand2_3/out" 54.984
+cap "nand2_3/w_n15_7#" "nand2_2/out" 45.916
+cap "nand2_1/a_n2_n7#" "nand2_2/vdd" 6.84
+cap "nand2_0/gnd" "nand2_3/out" 72.1665
+cap "nand2_0/out" "nand2_0/gnd" 41.238
+cap "nand2_1/w_n15_7#" "nand2_0/out" 45.916
+cap "nand2_0/w_n15_7#" "nand2_0/b" 1.42109e-14
+cap "nand2_4/w_n15_7#" "nand2_0/gnd" 10.542
+cap "nand2_1/out" "nand2_2/vdd" 107.845
+cap "nand2_0/gnd" "nand2_2/a" 103.095
+cap "nand2_1/b" "nand2_2/vdd" 7.728
+cap "nand2_2/w_n15_7#" "nand2_2/a" 39.776
+cap "nand2_2/vdd" "nand2_2/out" 41.238
+cap "nand2_2/vdd" "nand2_0/gnd" 29.842
+cap "nand2_2/vdd" "nand2_3/b" 41.238
+cap "nand2_2/w_n15_7#" "nand2_2/vdd" -4.598
+cap "nand2_1/w_n15_7#" "nand2_1/b" 1.42109e-14
+cap "nand2_0/out" "nand2_1/vdd" 20.619
+cap "nand2_3/w_n15_7#" "nand2_2/vdd" 5.546
+cap "nand2_0/out" "nand2_2/vdd" 7.728
+cap "nand2_2/out" "nand2_0/gnd" 41.238
+cap "nand2_0/out" "nand2_1/out" 54.984
+cap "nand2_4/w_n15_7#" "nand2_2/vdd" 5.546
+subcap "a_42_n51#" -9.72
+subcap "a_36_15#" -29.608
+cap "nand2_4/w_n15_7#" "nand2_4/a" 19.888
+cap "nand2_4/w_n15_7#" "nand2_4/vdd" 4.28
+cap "nand2_4/a" "nand2_4/vdd" 93.2225
+cap "nand2_4/b" "gnd" 155.079
+subcap "a_36_15#" -284.428
+subcap "a_n9_15#" -273.144
+subcap "ain" -1112.35
+subcap "bin" -500.182
+cap "nand2_0/w_n15_7#" "ain" 39.776
+cap "nand2_0/w_n15_7#" "vdd" -4.598
+cap "nand2_1/w_n15_7#" "bin" 19.888
+cap "nand2_1/w_n15_7#" "vdd" 0.474
+cap "bin" "vdd" 76.04
+cap "ain" "vdd" 399.508
+cap "vdd" "nand2_0/out" 20.619
+subcap "a_36_15#" -314.986
+merge "nand2_1/vdd" "nand2_0/vdd" -159.094 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -40 0 0 0 0 0 0 0 0
+merge "nand2_0/vdd" "nand2_4/vdd"
+merge "nand2_4/vdd" "nand2_3/vdd"
+merge "nand2_3/vdd" "nand2_2/vdd"
+merge "nand2_2/vdd" "vdd"
+merge "nand2_4/gnd" "nand2_3/gnd" -109.662 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -56 0 0 0 0 0 0 0 0
+merge "nand2_3/gnd" "nand2_2/gnd"
+merge "nand2_2/gnd" "m1_n25_n71#"
+merge "m1_n25_n71#" "nand2_1/gnd"
+merge "nand2_1/gnd" "gnd"
+merge "gnd" "nand2_0/gnd"
+merge "nand2_0/gnd" "m1_n25_n5#"
+merge "nand2_0/b" "nand2_0/a" -73.052 0 0 0 0 0 0 0 0 0 0 0 -12 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nand2_0/a" "nand2_3/b"
+merge "nand2_3/b" "ain"
+merge "nand2_4/b" "nand2_3/out" -21.78 0 0 0 0 0 0 0 0 0 0 0 -4 0 0 0 -8 0 0 0 0 0 0 0 0
+merge "nand2_3/out" "a_42_n51#"
+merge "nand2_3/a" "nand2_2/out" -84.132 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 -8 0 0 0 0 0 0 0 0
+merge "nand2_2/out" "a_n9_n51#"
+merge "nand2_1/b" "nand2_2/b" -92.94 0 0 0 0 0 0 0 0 0 0 0 -12 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nand2_2/b" "nand2_2/a"
+merge "nand2_2/a" "bin"
+merge "nand2_1/a" "nand2_0/out" -84.132 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 -8 0 0 0 0 0 0 0 0
+merge "nand2_0/out" "a_n9_15#"
+merge "nand2_4/a" "nand2_1/out" -41.668 0 0 0 0 0 0 0 0 0 0 0 -4 0 0 0 -8 0 0 0 0 0 0 0 0
+merge "nand2_1/out" "a_36_15#"
+merge "nand2_4/out" "out_x" -10.688 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0 0 0 0 0

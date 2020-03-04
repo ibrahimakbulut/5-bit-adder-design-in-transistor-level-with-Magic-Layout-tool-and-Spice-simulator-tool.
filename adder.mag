@@ -1,0 +1,105 @@
+magic
+tech scmos
+timestamp 1579044328
+<< polysilicon >>
+rect -52 -27 -50 -19
+rect -44 -27 -42 -19
+rect 60 -21 68 -19
+rect 66 -28 68 -21
+rect 74 -29 76 -20
+rect 6 -79 8 -71
+<< polycontact >>
+rect -53 -19 -49 -15
+rect 59 -19 63 -15
+rect -5 -56 0 -52
+<< metal1 >>
+rect -93 150 39 154
+rect -83 135 -76 139
+rect -71 135 -62 139
+rect -66 127 -62 135
+rect 35 131 39 150
+rect 35 127 48 131
+rect 54 127 77 131
+rect -83 120 -62 124
+rect 66 120 77 124
+rect -83 -15 -79 120
+rect 66 49 70 120
+rect 63 45 70 49
+rect 202 45 213 49
+rect 66 -6 70 45
+rect 59 -10 70 -6
+rect -83 -19 -53 -15
+rect 59 -15 63 -10
+rect -31 -26 -11 -22
+rect 21 -27 55 -22
+rect 22 -49 47 -44
+rect 22 -52 26 -49
+rect -31 -56 -5 -52
+rect 21 -56 26 -52
+rect -31 -76 -11 -72
+rect 37 -73 42 -62
+rect -23 -87 -19 -76
+rect 37 -77 56 -73
+rect 37 -87 42 -77
+rect 198 -87 203 -3
+rect -91 -91 203 -87
+<< pm12contact >>
+rect -76 135 -71 140
+rect 48 127 54 132
+rect 198 -3 203 3
+rect -45 -19 -40 -14
+rect 72 -20 77 -15
+rect -68 -27 -63 -22
+rect 47 -49 54 -44
+rect 37 -62 42 -53
+rect 87 -58 92 -53
+rect 5 -84 10 -79
+<< metal2 >>
+rect -93 145 -48 149
+rect -93 -22 -89 145
+rect -53 140 -48 145
+rect -53 136 125 140
+rect -76 -10 -71 135
+rect -19 132 -14 136
+rect 121 132 125 136
+rect 48 94 54 127
+rect 48 90 77 94
+rect -76 -14 -40 -10
+rect -93 -27 -68 -22
+rect 37 -53 42 -3
+rect 72 -15 77 90
+rect 207 -44 212 38
+rect 54 -49 212 -44
+rect 87 -77 92 -58
+rect 25 -79 92 -77
+rect 10 -81 92 -79
+rect 10 -84 29 -81
+use xor2  xor2_0
+timestamp 1579041276
+transform 1 0 5 0 1 68
+box -67 -78 59 64
+use xor2  xor2_1
+timestamp 1579041276
+transform 1 0 144 0 1 68
+box -67 -78 59 64
+use nand2  nand2_1
+timestamp 1579026266
+transform 1 0 -48 0 1 -61
+box -15 -15 17 39
+use nand2  nand2_2
+timestamp 1579026266
+transform 1 0 4 0 1 -61
+box -15 -15 17 39
+use nand2  nand2_0
+timestamp 1579026266
+transform 1 0 70 0 1 -62
+box -15 -15 17 39
+<< labels >>
+rlabel metal1 -83 122 -83 122 3 bin
+rlabel metal1 -83 137 -83 137 4 ain
+rlabel metal1 24 -54 24 -54 1 cout
+rlabel metal1 204 47 204 47 7 sum
+rlabel metal1 -90 -89 -90 -89 2 gnd
+rlabel metal2 -92 147 -92 147 4 vdd
+rlabel metal1 -92 152 -92 152 4 cin
+<< end >>

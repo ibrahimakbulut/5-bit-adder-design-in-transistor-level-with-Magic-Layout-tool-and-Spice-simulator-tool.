@@ -1,0 +1,1256 @@
+* SPICE3 file created from 5_bit_adder.ext - technology: scmos
+
+.option scale=0.12u
+
+M1000 adder_0/xor2_0/nand2_1/a b0 vdd adder_0/xor2_0/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=11700 ps=5980
+M1001 vdd b0 adder_0/xor2_0/nand2_1/a adder_0/xor2_0/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1002 adder_0/xor2_0/nand2_0/a_n2_n7# b0 gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=2600 ps=1690
+M1003 adder_0/xor2_0/nand2_1/a b0 adder_0/xor2_0/nand2_0/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1004 adder_0/xor2_0/nand2_4/a adder_0/xor2_0/nand2_1/a vdd adder_0/xor2_0/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1005 vdd a0 adder_0/xor2_0/nand2_4/a adder_0/xor2_0/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1006 adder_0/xor2_0/nand2_1/a_n2_n7# adder_0/xor2_0/nand2_1/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1007 adder_0/xor2_0/nand2_4/a a0 adder_0/xor2_0/nand2_1/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1008 adder_0/xor2_0/nand2_3/a a0 vdd adder_0/xor2_0/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1009 vdd a0 adder_0/xor2_0/nand2_3/a adder_0/xor2_0/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1010 adder_0/xor2_0/nand2_2/a_n2_n7# a0 gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1011 adder_0/xor2_0/nand2_3/a a0 adder_0/xor2_0/nand2_2/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1012 adder_0/xor2_0/nand2_4/b adder_0/xor2_0/nand2_3/a vdd adder_0/xor2_0/nand2_3/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1013 vdd b0 adder_0/xor2_0/nand2_4/b adder_0/xor2_0/nand2_3/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1014 adder_0/xor2_0/nand2_3/a_n2_n7# adder_0/xor2_0/nand2_3/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1015 adder_0/xor2_0/nand2_4/b b0 adder_0/xor2_0/nand2_3/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1016 adder_0/nand2_0/a adder_0/xor2_0/nand2_4/a vdd adder_0/xor2_0/nand2_4/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1017 vdd adder_0/xor2_0/nand2_4/b adder_0/nand2_0/a adder_0/xor2_0/nand2_4/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1018 adder_0/xor2_0/nand2_4/a_n2_n7# adder_0/xor2_0/nand2_4/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1019 adder_0/nand2_0/a adder_0/xor2_0/nand2_4/b adder_0/xor2_0/nand2_4/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1020 adder_0/xor2_1/nand2_1/a adder_0/nand2_0/a vdd adder_0/xor2_1/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1021 vdd adder_0/nand2_0/a adder_0/xor2_1/nand2_1/a adder_0/xor2_1/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1022 adder_0/xor2_1/nand2_0/a_n2_n7# adder_0/nand2_0/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1023 adder_0/xor2_1/nand2_1/a adder_0/nand2_0/a adder_0/xor2_1/nand2_0/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1024 adder_0/xor2_1/nand2_4/a adder_0/xor2_1/nand2_1/a vdd adder_0/xor2_1/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1025 vdd cin0 adder_0/xor2_1/nand2_4/a adder_0/xor2_1/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1026 adder_0/xor2_1/nand2_1/a_n2_n7# adder_0/xor2_1/nand2_1/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1027 adder_0/xor2_1/nand2_4/a cin0 adder_0/xor2_1/nand2_1/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1028 adder_0/xor2_1/nand2_3/a cin0 vdd adder_0/xor2_1/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1029 vdd cin0 adder_0/xor2_1/nand2_3/a adder_0/xor2_1/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1030 adder_0/xor2_1/nand2_2/a_n2_n7# cin0 gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1031 adder_0/xor2_1/nand2_3/a cin0 adder_0/xor2_1/nand2_2/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1032 adder_0/xor2_1/nand2_4/b adder_0/xor2_1/nand2_3/a vdd adder_0/xor2_1/nand2_3/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1033 vdd adder_0/nand2_0/a adder_0/xor2_1/nand2_4/b adder_0/xor2_1/nand2_3/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1034 adder_0/xor2_1/nand2_3/a_n2_n7# adder_0/xor2_1/nand2_3/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1035 adder_0/xor2_1/nand2_4/b adder_0/nand2_0/a adder_0/xor2_1/nand2_3/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1036 s0 adder_0/xor2_1/nand2_4/a vdd adder_0/xor2_1/nand2_4/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1037 vdd adder_0/xor2_1/nand2_4/b s0 adder_0/xor2_1/nand2_4/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1038 adder_0/xor2_1/nand2_4/a_n2_n7# adder_0/xor2_1/nand2_4/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1039 s0 adder_0/xor2_1/nand2_4/b adder_0/xor2_1/nand2_4/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1040 adder_0/nand2_2/b adder_0/nand2_0/a vdd adder_0/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1041 vdd cin0 adder_0/nand2_2/b adder_0/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1042 adder_0/nand2_0/a_n2_n7# adder_0/nand2_0/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1043 adder_0/nand2_2/b cin0 adder_0/nand2_0/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1044 adder_0/nand2_2/a b0 vdd adder_0/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1045 vdd a0 adder_0/nand2_2/a adder_0/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1046 adder_0/nand2_1/a_n2_n7# b0 gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1047 adder_0/nand2_2/a a0 adder_0/nand2_1/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1048 adder_1/cin adder_0/nand2_2/a vdd adder_0/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1049 vdd adder_0/nand2_2/b adder_1/cin adder_0/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1050 adder_0/nand2_2/a_n2_n7# adder_0/nand2_2/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1051 adder_1/cin adder_0/nand2_2/b adder_0/nand2_2/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1052 adder_1/xor2_0/nand2_1/a b1 vdd adder_1/xor2_0/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1053 vdd b1 adder_1/xor2_0/nand2_1/a adder_1/xor2_0/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1054 adder_1/xor2_0/nand2_0/a_n2_n7# b1 gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1055 adder_1/xor2_0/nand2_1/a b1 adder_1/xor2_0/nand2_0/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1056 adder_1/xor2_0/nand2_4/a adder_1/xor2_0/nand2_1/a vdd adder_1/xor2_0/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1057 vdd a1 adder_1/xor2_0/nand2_4/a adder_1/xor2_0/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1058 adder_1/xor2_0/nand2_1/a_n2_n7# adder_1/xor2_0/nand2_1/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1059 adder_1/xor2_0/nand2_4/a a1 adder_1/xor2_0/nand2_1/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1060 adder_1/xor2_0/nand2_3/a a1 vdd adder_1/xor2_0/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1061 vdd a1 adder_1/xor2_0/nand2_3/a adder_1/xor2_0/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1062 adder_1/xor2_0/nand2_2/a_n2_n7# a1 gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1063 adder_1/xor2_0/nand2_3/a a1 adder_1/xor2_0/nand2_2/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1064 adder_1/xor2_0/nand2_4/b adder_1/xor2_0/nand2_3/a vdd adder_1/xor2_0/nand2_3/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1065 vdd b1 adder_1/xor2_0/nand2_4/b adder_1/xor2_0/nand2_3/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1066 adder_1/xor2_0/nand2_3/a_n2_n7# adder_1/xor2_0/nand2_3/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1067 adder_1/xor2_0/nand2_4/b b1 adder_1/xor2_0/nand2_3/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1068 adder_1/nand2_0/a adder_1/xor2_0/nand2_4/a vdd adder_1/xor2_0/nand2_4/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1069 vdd adder_1/xor2_0/nand2_4/b adder_1/nand2_0/a adder_1/xor2_0/nand2_4/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1070 adder_1/xor2_0/nand2_4/a_n2_n7# adder_1/xor2_0/nand2_4/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1071 adder_1/nand2_0/a adder_1/xor2_0/nand2_4/b adder_1/xor2_0/nand2_4/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1072 adder_1/xor2_1/nand2_1/a adder_1/nand2_0/a vdd adder_1/xor2_1/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1073 vdd adder_1/nand2_0/a adder_1/xor2_1/nand2_1/a adder_1/xor2_1/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1074 adder_1/xor2_1/nand2_0/a_n2_n7# adder_1/nand2_0/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1075 adder_1/xor2_1/nand2_1/a adder_1/nand2_0/a adder_1/xor2_1/nand2_0/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1076 adder_1/xor2_1/nand2_4/a adder_1/xor2_1/nand2_1/a vdd adder_1/xor2_1/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1077 vdd adder_1/cin adder_1/xor2_1/nand2_4/a adder_1/xor2_1/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1078 adder_1/xor2_1/nand2_1/a_n2_n7# adder_1/xor2_1/nand2_1/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1079 adder_1/xor2_1/nand2_4/a adder_1/cin adder_1/xor2_1/nand2_1/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1080 adder_1/xor2_1/nand2_3/a adder_1/cin vdd adder_1/xor2_1/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1081 vdd adder_1/cin adder_1/xor2_1/nand2_3/a adder_1/xor2_1/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1082 adder_1/xor2_1/nand2_2/a_n2_n7# adder_1/cin gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1083 adder_1/xor2_1/nand2_3/a adder_1/cin adder_1/xor2_1/nand2_2/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1084 adder_1/xor2_1/nand2_4/b adder_1/xor2_1/nand2_3/a vdd adder_1/xor2_1/nand2_3/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1085 vdd adder_1/nand2_0/a adder_1/xor2_1/nand2_4/b adder_1/xor2_1/nand2_3/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1086 adder_1/xor2_1/nand2_3/a_n2_n7# adder_1/xor2_1/nand2_3/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1087 adder_1/xor2_1/nand2_4/b adder_1/nand2_0/a adder_1/xor2_1/nand2_3/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1088 s1 adder_1/xor2_1/nand2_4/a vdd adder_1/xor2_1/nand2_4/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1089 vdd adder_1/xor2_1/nand2_4/b s1 adder_1/xor2_1/nand2_4/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1090 adder_1/xor2_1/nand2_4/a_n2_n7# adder_1/xor2_1/nand2_4/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1091 s1 adder_1/xor2_1/nand2_4/b adder_1/xor2_1/nand2_4/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1092 adder_1/nand2_2/b adder_1/nand2_0/a vdd adder_1/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1093 vdd adder_1/cin adder_1/nand2_2/b adder_1/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1094 adder_1/nand2_0/a_n2_n7# adder_1/nand2_0/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1095 adder_1/nand2_2/b adder_1/cin adder_1/nand2_0/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1096 adder_1/nand2_2/a b1 vdd adder_1/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1097 vdd a1 adder_1/nand2_2/a adder_1/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1098 adder_1/nand2_1/a_n2_n7# b1 gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1099 adder_1/nand2_2/a a1 adder_1/nand2_1/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1100 adder_2/cin adder_1/nand2_2/a vdd adder_1/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1101 vdd adder_1/nand2_2/b adder_2/cin adder_1/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1102 adder_1/nand2_2/a_n2_n7# adder_1/nand2_2/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1103 adder_2/cin adder_1/nand2_2/b adder_1/nand2_2/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1104 adder_2/xor2_0/nand2_1/a b2 vdd adder_2/xor2_0/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1105 vdd b2 adder_2/xor2_0/nand2_1/a adder_2/xor2_0/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1106 adder_2/xor2_0/nand2_0/a_n2_n7# b2 gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1107 adder_2/xor2_0/nand2_1/a b2 adder_2/xor2_0/nand2_0/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1108 adder_2/xor2_0/nand2_4/a adder_2/xor2_0/nand2_1/a vdd adder_2/xor2_0/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1109 vdd a2 adder_2/xor2_0/nand2_4/a adder_2/xor2_0/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1110 adder_2/xor2_0/nand2_1/a_n2_n7# adder_2/xor2_0/nand2_1/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1111 adder_2/xor2_0/nand2_4/a a2 adder_2/xor2_0/nand2_1/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1112 adder_2/xor2_0/nand2_3/a a2 vdd adder_2/xor2_0/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1113 vdd a2 adder_2/xor2_0/nand2_3/a adder_2/xor2_0/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1114 adder_2/xor2_0/nand2_2/a_n2_n7# a2 gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1115 adder_2/xor2_0/nand2_3/a a2 adder_2/xor2_0/nand2_2/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1116 adder_2/xor2_0/nand2_4/b adder_2/xor2_0/nand2_3/a vdd adder_2/xor2_0/nand2_3/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1117 vdd b2 adder_2/xor2_0/nand2_4/b adder_2/xor2_0/nand2_3/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1118 adder_2/xor2_0/nand2_3/a_n2_n7# adder_2/xor2_0/nand2_3/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1119 adder_2/xor2_0/nand2_4/b b2 adder_2/xor2_0/nand2_3/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1120 adder_2/nand2_0/a adder_2/xor2_0/nand2_4/a vdd adder_2/xor2_0/nand2_4/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1121 vdd adder_2/xor2_0/nand2_4/b adder_2/nand2_0/a adder_2/xor2_0/nand2_4/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1122 adder_2/xor2_0/nand2_4/a_n2_n7# adder_2/xor2_0/nand2_4/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1123 adder_2/nand2_0/a adder_2/xor2_0/nand2_4/b adder_2/xor2_0/nand2_4/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1124 adder_2/xor2_1/nand2_1/a adder_2/nand2_0/a vdd adder_2/xor2_1/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1125 vdd adder_2/nand2_0/a adder_2/xor2_1/nand2_1/a adder_2/xor2_1/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1126 adder_2/xor2_1/nand2_0/a_n2_n7# adder_2/nand2_0/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1127 adder_2/xor2_1/nand2_1/a adder_2/nand2_0/a adder_2/xor2_1/nand2_0/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1128 adder_2/xor2_1/nand2_4/a adder_2/xor2_1/nand2_1/a vdd adder_2/xor2_1/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1129 vdd adder_2/cin adder_2/xor2_1/nand2_4/a adder_2/xor2_1/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1130 adder_2/xor2_1/nand2_1/a_n2_n7# adder_2/xor2_1/nand2_1/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1131 adder_2/xor2_1/nand2_4/a adder_2/cin adder_2/xor2_1/nand2_1/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1132 adder_2/xor2_1/nand2_3/a adder_2/cin vdd adder_2/xor2_1/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1133 vdd adder_2/cin adder_2/xor2_1/nand2_3/a adder_2/xor2_1/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1134 adder_2/xor2_1/nand2_2/a_n2_n7# adder_2/cin gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1135 adder_2/xor2_1/nand2_3/a adder_2/cin adder_2/xor2_1/nand2_2/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1136 adder_2/xor2_1/nand2_4/b adder_2/xor2_1/nand2_3/a vdd adder_2/xor2_1/nand2_3/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1137 vdd adder_2/nand2_0/a adder_2/xor2_1/nand2_4/b adder_2/xor2_1/nand2_3/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1138 adder_2/xor2_1/nand2_3/a_n2_n7# adder_2/xor2_1/nand2_3/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1139 adder_2/xor2_1/nand2_4/b adder_2/nand2_0/a adder_2/xor2_1/nand2_3/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1140 s2 adder_2/xor2_1/nand2_4/a vdd adder_2/xor2_1/nand2_4/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1141 vdd adder_2/xor2_1/nand2_4/b s2 adder_2/xor2_1/nand2_4/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1142 adder_2/xor2_1/nand2_4/a_n2_n7# adder_2/xor2_1/nand2_4/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1143 s2 adder_2/xor2_1/nand2_4/b adder_2/xor2_1/nand2_4/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1144 adder_2/nand2_2/b adder_2/nand2_0/a vdd adder_2/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1145 vdd adder_2/cin adder_2/nand2_2/b adder_2/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1146 adder_2/nand2_0/a_n2_n7# adder_2/nand2_0/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1147 adder_2/nand2_2/b adder_2/cin adder_2/nand2_0/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1148 adder_2/nand2_2/a b2 vdd adder_2/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1149 vdd a2 adder_2/nand2_2/a adder_2/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1150 adder_2/nand2_1/a_n2_n7# b2 gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1151 adder_2/nand2_2/a a2 adder_2/nand2_1/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1152 adder_3/cin adder_2/nand2_2/a vdd adder_2/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1153 vdd adder_2/nand2_2/b adder_3/cin adder_2/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1154 adder_2/nand2_2/a_n2_n7# adder_2/nand2_2/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1155 adder_3/cin adder_2/nand2_2/b adder_2/nand2_2/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1156 adder_4/xor2_0/nand2_1/a b4 vdd adder_4/xor2_0/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1157 vdd b4 adder_4/xor2_0/nand2_1/a adder_4/xor2_0/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1158 adder_4/xor2_0/nand2_0/a_n2_n7# b4 gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1159 adder_4/xor2_0/nand2_1/a b4 adder_4/xor2_0/nand2_0/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1160 adder_4/xor2_0/nand2_4/a adder_4/xor2_0/nand2_1/a vdd adder_4/xor2_0/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1161 vdd a4 adder_4/xor2_0/nand2_4/a adder_4/xor2_0/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1162 adder_4/xor2_0/nand2_1/a_n2_n7# adder_4/xor2_0/nand2_1/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1163 adder_4/xor2_0/nand2_4/a a4 adder_4/xor2_0/nand2_1/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1164 adder_4/xor2_0/nand2_3/a a4 vdd adder_4/xor2_0/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1165 vdd a4 adder_4/xor2_0/nand2_3/a adder_4/xor2_0/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1166 adder_4/xor2_0/nand2_2/a_n2_n7# a4 gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1167 adder_4/xor2_0/nand2_3/a a4 adder_4/xor2_0/nand2_2/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1168 adder_4/xor2_0/nand2_4/b adder_4/xor2_0/nand2_3/a vdd adder_4/xor2_0/nand2_3/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1169 vdd b4 adder_4/xor2_0/nand2_4/b adder_4/xor2_0/nand2_3/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1170 adder_4/xor2_0/nand2_3/a_n2_n7# adder_4/xor2_0/nand2_3/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1171 adder_4/xor2_0/nand2_4/b b4 adder_4/xor2_0/nand2_3/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1172 adder_4/nand2_0/a adder_4/xor2_0/nand2_4/a vdd adder_4/xor2_0/nand2_4/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1173 vdd adder_4/xor2_0/nand2_4/b adder_4/nand2_0/a adder_4/xor2_0/nand2_4/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1174 adder_4/xor2_0/nand2_4/a_n2_n7# adder_4/xor2_0/nand2_4/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1175 adder_4/nand2_0/a adder_4/xor2_0/nand2_4/b adder_4/xor2_0/nand2_4/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1176 adder_4/xor2_1/nand2_1/a adder_4/nand2_0/a vdd adder_4/xor2_1/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1177 vdd adder_4/nand2_0/a adder_4/xor2_1/nand2_1/a adder_4/xor2_1/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1178 adder_4/xor2_1/nand2_0/a_n2_n7# adder_4/nand2_0/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1179 adder_4/xor2_1/nand2_1/a adder_4/nand2_0/a adder_4/xor2_1/nand2_0/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1180 adder_4/xor2_1/nand2_4/a adder_4/xor2_1/nand2_1/a vdd adder_4/xor2_1/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1181 vdd adder_4/cin adder_4/xor2_1/nand2_4/a adder_4/xor2_1/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1182 adder_4/xor2_1/nand2_1/a_n2_n7# adder_4/xor2_1/nand2_1/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1183 adder_4/xor2_1/nand2_4/a adder_4/cin adder_4/xor2_1/nand2_1/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1184 adder_4/xor2_1/nand2_3/a adder_4/cin vdd adder_4/xor2_1/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1185 vdd adder_4/cin adder_4/xor2_1/nand2_3/a adder_4/xor2_1/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1186 adder_4/xor2_1/nand2_2/a_n2_n7# adder_4/cin gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1187 adder_4/xor2_1/nand2_3/a adder_4/cin adder_4/xor2_1/nand2_2/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1188 adder_4/xor2_1/nand2_4/b adder_4/xor2_1/nand2_3/a vdd adder_4/xor2_1/nand2_3/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1189 vdd adder_4/nand2_0/a adder_4/xor2_1/nand2_4/b adder_4/xor2_1/nand2_3/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1190 adder_4/xor2_1/nand2_3/a_n2_n7# adder_4/xor2_1/nand2_3/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1191 adder_4/xor2_1/nand2_4/b adder_4/nand2_0/a adder_4/xor2_1/nand2_3/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1192 s4 adder_4/xor2_1/nand2_4/a vdd adder_4/xor2_1/nand2_4/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1193 vdd adder_4/xor2_1/nand2_4/b s4 adder_4/xor2_1/nand2_4/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1194 adder_4/xor2_1/nand2_4/a_n2_n7# adder_4/xor2_1/nand2_4/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1195 s4 adder_4/xor2_1/nand2_4/b adder_4/xor2_1/nand2_4/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1196 adder_4/nand2_2/b adder_4/nand2_0/a vdd adder_4/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1197 vdd adder_4/cin adder_4/nand2_2/b adder_4/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1198 adder_4/nand2_0/a_n2_n7# adder_4/nand2_0/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1199 adder_4/nand2_2/b adder_4/cin adder_4/nand2_0/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1200 adder_4/nand2_2/a b4 vdd adder_4/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1201 vdd a4 adder_4/nand2_2/a adder_4/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1202 adder_4/nand2_1/a_n2_n7# b4 gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1203 adder_4/nand2_2/a a4 adder_4/nand2_1/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1204 cout adder_4/nand2_2/a vdd adder_4/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1205 vdd adder_4/nand2_2/b cout adder_4/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1206 adder_4/nand2_2/a_n2_n7# adder_4/nand2_2/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1207 cout adder_4/nand2_2/b adder_4/nand2_2/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1208 adder_3/xor2_0/nand2_1/a b3 vdd adder_3/xor2_0/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1209 vdd b3 adder_3/xor2_0/nand2_1/a adder_3/xor2_0/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1210 adder_3/xor2_0/nand2_0/a_n2_n7# b3 gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1211 adder_3/xor2_0/nand2_1/a b3 adder_3/xor2_0/nand2_0/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1212 adder_3/xor2_0/nand2_4/a adder_3/xor2_0/nand2_1/a vdd adder_3/xor2_0/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1213 vdd a3 adder_3/xor2_0/nand2_4/a adder_3/xor2_0/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1214 adder_3/xor2_0/nand2_1/a_n2_n7# adder_3/xor2_0/nand2_1/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1215 adder_3/xor2_0/nand2_4/a a3 adder_3/xor2_0/nand2_1/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1216 adder_3/xor2_0/nand2_3/a a3 vdd adder_3/xor2_0/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1217 vdd a3 adder_3/xor2_0/nand2_3/a adder_3/xor2_0/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1218 adder_3/xor2_0/nand2_2/a_n2_n7# a3 gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1219 adder_3/xor2_0/nand2_3/a a3 adder_3/xor2_0/nand2_2/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1220 adder_3/xor2_0/nand2_4/b adder_3/xor2_0/nand2_3/a vdd adder_3/xor2_0/nand2_3/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1221 vdd b3 adder_3/xor2_0/nand2_4/b adder_3/xor2_0/nand2_3/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1222 adder_3/xor2_0/nand2_3/a_n2_n7# adder_3/xor2_0/nand2_3/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1223 adder_3/xor2_0/nand2_4/b b3 adder_3/xor2_0/nand2_3/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1224 adder_3/nand2_0/a adder_3/xor2_0/nand2_4/a vdd adder_3/xor2_0/nand2_4/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1225 vdd adder_3/xor2_0/nand2_4/b adder_3/nand2_0/a adder_3/xor2_0/nand2_4/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1226 adder_3/xor2_0/nand2_4/a_n2_n7# adder_3/xor2_0/nand2_4/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1227 adder_3/nand2_0/a adder_3/xor2_0/nand2_4/b adder_3/xor2_0/nand2_4/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1228 adder_3/xor2_1/nand2_1/a adder_3/nand2_0/a vdd adder_3/xor2_1/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1229 vdd adder_3/nand2_0/a adder_3/xor2_1/nand2_1/a adder_3/xor2_1/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1230 adder_3/xor2_1/nand2_0/a_n2_n7# adder_3/nand2_0/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1231 adder_3/xor2_1/nand2_1/a adder_3/nand2_0/a adder_3/xor2_1/nand2_0/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1232 adder_3/xor2_1/nand2_4/a adder_3/xor2_1/nand2_1/a vdd adder_3/xor2_1/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1233 vdd adder_3/cin adder_3/xor2_1/nand2_4/a adder_3/xor2_1/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1234 adder_3/xor2_1/nand2_1/a_n2_n7# adder_3/xor2_1/nand2_1/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1235 adder_3/xor2_1/nand2_4/a adder_3/cin adder_3/xor2_1/nand2_1/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1236 adder_3/xor2_1/nand2_3/a adder_3/cin vdd adder_3/xor2_1/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1237 vdd adder_3/cin adder_3/xor2_1/nand2_3/a adder_3/xor2_1/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1238 adder_3/xor2_1/nand2_2/a_n2_n7# adder_3/cin gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1239 adder_3/xor2_1/nand2_3/a adder_3/cin adder_3/xor2_1/nand2_2/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1240 adder_3/xor2_1/nand2_4/b adder_3/xor2_1/nand2_3/a vdd adder_3/xor2_1/nand2_3/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1241 vdd adder_3/nand2_0/a adder_3/xor2_1/nand2_4/b adder_3/xor2_1/nand2_3/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1242 adder_3/xor2_1/nand2_3/a_n2_n7# adder_3/xor2_1/nand2_3/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1243 adder_3/xor2_1/nand2_4/b adder_3/nand2_0/a adder_3/xor2_1/nand2_3/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1244 s3 adder_3/xor2_1/nand2_4/a vdd adder_3/xor2_1/nand2_4/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1245 vdd adder_3/xor2_1/nand2_4/b s3 adder_3/xor2_1/nand2_4/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1246 adder_3/xor2_1/nand2_4/a_n2_n7# adder_3/xor2_1/nand2_4/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1247 s3 adder_3/xor2_1/nand2_4/b adder_3/xor2_1/nand2_4/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1248 adder_3/nand2_2/b adder_3/nand2_0/a vdd adder_3/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1249 vdd adder_3/cin adder_3/nand2_2/b adder_3/nand2_0/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1250 adder_3/nand2_0/a_n2_n7# adder_3/nand2_0/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1251 adder_3/nand2_2/b adder_3/cin adder_3/nand2_0/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1252 adder_3/nand2_2/a b3 vdd adder_3/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1253 vdd a3 adder_3/nand2_2/a adder_3/nand2_1/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1254 adder_3/nand2_1/a_n2_n7# b3 gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1255 adder_3/nand2_2/a a3 adder_3/nand2_1/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1256 adder_4/cin adder_3/nand2_2/a vdd adder_3/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=108 pd=48 as=0 ps=0
+M1257 vdd adder_3/nand2_2/b adder_4/cin adder_3/nand2_2/w_n15_7# pmos w=18 l=2
++  ad=0 pd=0 as=0 ps=0
+M1258 adder_3/nand2_2/a_n2_n7# adder_3/nand2_2/a gnd gnd nmos w=8 l=2
++  ad=32 pd=24 as=0 ps=0
+M1259 adder_4/cin adder_3/nand2_2/b adder_3/nand2_2/a_n2_n7# gnd nmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+C0 adder_2/xor2_0/nand2_3/a adder_2/xor2_0/nand2_4/b 0.05fF
+C1 adder_2/nand2_0/a adder_3/cin 0.01fF
+C2 adder_1/xor2_1/nand2_1/w_n15_7# adder_1/cin 0.13fF
+C3 adder_4/xor2_1/nand2_4/a adder_4/xor2_1/nand2_1/a 0.05fF
+C4 adder_0/xor2_1/nand2_4/w_n15_7# vdd 0.18fF
+C5 adder_2/nand2_0/a adder_2/xor2_0/nand2_4/w_n15_7# 0.06fF
+C6 vdd adder_3/xor2_1/nand2_3/a 0.49fF
+C7 adder_2/xor2_0/nand2_0/w_n15_7# vdd 0.17fF
+C8 adder_0/nand2_2/b gnd 0.37fF
+C9 adder_1/xor2_0/nand2_4/b vdd 0.45fF
+C10 adder_2/xor2_0/nand2_1/a vdd 0.54fF
+C11 adder_4/xor2_1/nand2_0/w_n15_7# vdd 0.17fF
+C12 gnd adder_3/xor2_1/nand2_4/w_n15_7# 0.01fF
+C13 vdd adder_3/xor2_1/nand2_1/a_n2_n7# 0.01fF
+C14 adder_2/nand2_1/w_n15_7# adder_2/nand2_2/a 0.06fF
+C15 adder_4/nand2_0/a adder_4/xor2_1/nand2_0/w_n15_7# 0.24fF
+C16 vdd adder_3/xor2_0/nand2_0/w_n15_7# 0.17fF
+C17 adder_4/nand2_2/w_n15_7# adder_4/nand2_2/b 0.11fF
+C18 a2 adder_2/xor2_0/nand2_4/a 0.03fF
+C19 b0 vdd 0.72fF
+C20 adder_0/xor2_1/nand2_3/w_n15_7# adder_0/xor2_1/nand2_4/b 0.06fF
+C21 adder_1/nand2_0/a gnd 1.04fF
+C22 adder_0/xor2_0/nand2_4/b adder_0/xor2_0/nand2_4/a 0.09fF
+C23 a4 vdd 0.43fF
+C24 adder_2/nand2_2/b gnd 0.37fF
+C25 vdd adder_3/nand2_0/w_n15_7# 0.16fF
+C26 cin0 vdd 0.55fF
+C27 a2 adder_2/xor2_0/nand2_3/a 0.03fF
+C28 adder_1/nand2_0/a adder_1/xor2_0/nand2_4/w_n15_7# 0.06fF
+C29 adder_0/xor2_1/nand2_2/w_n15_7# adder_0/xor2_1/nand2_3/a 0.06fF
+C30 adder_3/xor2_1/nand2_1/a adder_3/nand2_0/a 0.03fF
+C31 adder_0/xor2_1/nand2_4/w_n15_7# adder_0/xor2_1/nand2_4/a 0.11fF
+C32 adder_1/xor2_1/nand2_4/b adder_1/xor2_1/nand2_3/a 0.05fF
+C33 adder_1/xor2_1/nand2_3/a vdd 0.49fF
+C34 adder_0/nand2_2/a adder_0/nand2_1/w_n15_7# 0.06fF
+C35 adder_4/xor2_0/nand2_4/w_n15_7# gnd 0.01fF
+C36 adder_3/xor2_1/nand2_1/w_n15_7# adder_3/xor2_1/nand2_4/a 0.06fF
+C37 adder_1/xor2_1/nand2_4/b vdd 0.45fF
+C38 adder_0/xor2_0/nand2_1/a gnd 0.08fF
+C39 adder_2/cin vdd 1.43fF
+C40 adder_1/nand2_2/w_n15_7# vdd 0.17fF
+C41 adder_4/nand2_0/a vdd 1.01fF
+C42 adder_1/nand2_2/w_n15_7# adder_2/cin 0.06fF
+C43 adder_2/xor2_0/nand2_4/b vdd 0.45fF
+C44 adder_4/nand2_0/w_n15_7# vdd 0.16fF
+C45 adder_2/xor2_0/nand2_1/a a2 0.09fF
+C46 adder_3/xor2_1/nand2_4/a adder_3/xor2_1/nand2_4/b 0.09fF
+C47 adder_1/xor2_1/nand2_1/a vdd 0.54fF
+C48 adder_0/xor2_0/nand2_4/a gnd 0.04fF
+C49 adder_4/nand2_0/a adder_4/nand2_0/w_n15_7# 0.11fF
+C50 adder_4/xor2_0/nand2_0/w_n15_7# vdd 0.17fF
+C51 b2 adder_2/nand2_1/w_n15_7# 0.11fF
+C52 adder_2/xor2_1/nand2_1/a adder_2/xor2_1/nand2_1/w_n15_7# 0.14fF
+C53 cout adder_4/cin 0.01fF
+C54 a1 vdd 0.43fF
+C55 cin0 adder_0/xor2_1/nand2_4/a 0.03fF
+C56 b3 adder_3/xor2_0/nand2_3/a 0.09fF
+C57 adder_0/nand2_2/a adder_1/cin 0.07fF
+C58 adder_4/xor2_1/nand2_4/b adder_4/xor2_1/nand2_3/w_n15_7# 0.06fF
+C59 adder_4/xor2_0/nand2_2/w_n15_7# adder_4/xor2_0/nand2_3/a 0.06fF
+C60 adder_2/xor2_1/nand2_1/a_n2_n7# vdd 0.01fF
+C61 adder_4/xor2_1/nand2_4/a adder_4/cin 0.03fF
+C62 adder_2/nand2_2/b adder_3/cin 0.13fF
+C63 adder_0/xor2_1/nand2_4/a vdd 0.72fF
+C64 adder_2/xor2_1/nand2_4/b s2 0.03fF
+C65 b0 adder_0/nand2_1/w_n15_7# 0.11fF
+C66 a2 vdd 0.43fF
+C67 adder_2/xor2_1/nand2_1/a adder_2/xor2_1/nand2_0/w_n15_7# 0.06fF
+C68 gnd adder_3/xor2_1/nand2_4/a 0.04fF
+C69 vdd adder_3/xor2_1/nand2_1/a 0.54fF
+C70 b3 adder_3/xor2_0/nand2_1/a 0.03fF
+C71 adder_0/xor2_1/nand2_0/w_n15_7# vdd 0.17fF
+C72 gnd b3 0.94fF
+C73 adder_0/nand2_1/w_n15_7# vdd 0.17fF
+C74 vdd adder_3/nand2_2/w_n15_7# 0.17fF
+C75 adder_4/cin adder_4/nand2_2/b 0.03fF
+C76 b1 adder_1/xor2_0/nand2_3/a 0.09fF
+C77 adder_0/xor2_0/nand2_4/b adder_0/nand2_0/a 0.03fF
+C78 adder_3/xor2_0/nand2_4/b b3 0.03fF
+C79 a4 adder_4/nand2_2/a 0.03fF
+C80 adder_2/xor2_1/nand2_3/w_n15_7# adder_2/xor2_1/nand2_4/b 0.06fF
+C81 adder_3/xor2_0/nand2_4/w_n15_7# adder_3/xor2_0/nand2_4/a 0.11fF
+C82 adder_1/xor2_0/nand2_1/a_n2_n7# vdd 0.01fF
+C83 a0 gnd 0.10fF
+C84 adder_3/nand2_1/w_n15_7# a3 0.13fF
+C85 cin0 adder_1/cin 0.01fF
+C86 adder_0/xor2_0/nand2_2/w_n15_7# vdd 0.17fF
+C87 adder_2/xor2_1/nand2_1/w_n15_7# adder_2/xor2_1/nand2_4/a 0.06fF
+C88 adder_1/cin adder_1/xor2_1/nand2_3/a 0.03fF
+C89 adder_4/nand2_2/a vdd 0.49fF
+C90 adder_4/xor2_1/nand2_4/b gnd 0.36fF
+C91 vdd adder_3/nand2_2/a 0.49fF
+C92 adder_4/xor2_1/nand2_4/b s4 0.03fF
+C93 adder_1/nand2_0/a adder_1/xor2_1/nand2_3/w_n15_7# 0.11fF
+C94 adder_1/cin vdd 1.41fF
+C95 adder_3/cin adder_3/xor2_1/nand2_4/a 0.03fF
+C96 s2 vdd 0.45fF
+C97 adder_1/cin adder_2/cin 0.01fF
+C98 adder_3/xor2_0/nand2_3/w_n15_7# adder_3/xor2_0/nand2_3/a 0.14fF
+C99 adder_0/xor2_0/nand2_0/w_n15_7# adder_0/xor2_0/nand2_1/a 0.06fF
+C100 adder_2/nand2_0/w_n15_7# adder_3/cin 0.03fF
+C101 adder_0/nand2_0/a gnd 1.04fF
+C102 adder_2/nand2_2/w_n15_7# adder_2/nand2_2/b 0.11fF
+C103 adder_1/xor2_0/nand2_1/a adder_1/xor2_0/nand2_4/a 0.05fF
+C104 adder_3/xor2_0/nand2_2/w_n15_7# adder_3/xor2_0/nand2_3/a 0.06fF
+C105 adder_3/xor2_0/nand2_1/w_n15_7# adder_3/xor2_0/nand2_4/a 0.06fF
+C106 adder_4/xor2_1/nand2_4/b adder_4/xor2_1/nand2_3/a 0.05fF
+C107 adder_1/xor2_1/nand2_1/a adder_1/cin 0.09fF
+C108 adder_1/xor2_1/nand2_4/a gnd 0.04fF
+C109 gnd adder_3/xor2_0/nand2_4/w_n15_7# 0.01fF
+C110 adder_1/nand2_2/b gnd 0.37fF
+C111 adder_1/xor2_1/nand2_4/b adder_1/xor2_1/nand2_4/w_n15_7# 0.11fF
+C112 adder_1/xor2_1/nand2_4/w_n15_7# vdd 0.18fF
+C113 cin0 adder_0/xor2_1/nand2_3/a 0.03fF
+C114 adder_2/nand2_0/a adder_2/xor2_1/nand2_4/b 0.03fF
+C115 b0 adder_0/xor2_0/nand2_3/w_n15_7# 0.11fF
+C116 b3 a3 1.17fF
+C117 adder_2/nand2_2/a gnd 0.08fF
+C118 adder_3/xor2_0/nand2_4/b adder_3/xor2_0/nand2_4/w_n15_7# 0.11fF
+C119 b1 adder_1/xor2_0/nand2_4/b 0.03fF
+C120 adder_0/xor2_1/nand2_3/a vdd 0.49fF
+C121 adder_2/xor2_1/nand2_3/w_n15_7# vdd 0.18fF
+C122 adder_4/xor2_1/nand2_4/a adder_4/xor2_1/nand2_4/w_n15_7# 0.11fF
+C123 adder_3/xor2_0/nand2_4/b adder_3/xor2_0/nand2_3/w_n15_7# 0.06fF
+C124 adder_3/xor2_0/nand2_1/w_n15_7# adder_3/xor2_0/nand2_1/a 0.14fF
+C125 s0 gnd 0.04fF
+C126 adder_0/xor2_1/nand2_4/w_n15_7# adder_0/xor2_1/nand2_4/b 0.11fF
+C127 adder_0/xor2_0/nand2_3/w_n15_7# vdd 0.18fF
+C128 adder_4/xor2_0/nand2_4/a gnd 0.04fF
+C129 adder_2/xor2_1/nand2_3/a adder_2/xor2_1/nand2_4/b 0.05fF
+C130 s1 vdd 0.45fF
+C131 adder_1/xor2_1/nand2_4/b s1 0.03fF
+C132 adder_3/nand2_2/w_n15_7# adder_3/nand2_2/a 0.14fF
+C133 b4 adder_4/nand2_1/w_n15_7# 0.11fF
+C134 s1 adder_2/cin 0.04fF
+C135 adder_4/xor2_0/nand2_4/w_n15_7# adder_4/xor2_0/nand2_4/b 0.11fF
+C136 adder_4/xor2_0/nand2_3/a gnd 0.08fF
+C137 gnd adder_3/nand2_2/b 0.37fF
+C138 b1 vdd 0.72fF
+C139 adder_3/xor2_1/nand2_4/w_n15_7# s3 0.06fF
+C140 adder_0/nand2_2/a adder_0/nand2_2/b 0.09fF
+C141 adder_0/xor2_1/nand2_3/w_n15_7# adder_0/nand2_0/a 0.11fF
+C142 adder_4/xor2_0/nand2_3/w_n15_7# adder_4/xor2_0/nand2_4/b 0.06fF
+C143 b2 gnd 0.94fF
+C144 adder_0/xor2_1/nand2_1/w_n15_7# adder_0/xor2_1/nand2_1/a 0.14fF
+C145 cout vdd 0.58fF
+C146 adder_2/nand2_2/a adder_3/cin 0.07fF
+C147 adder_0/xor2_1/nand2_1/a adder_0/nand2_0/a 0.03fF
+C148 adder_2/nand2_0/a vdd 1.01fF
+C149 adder_4/nand2_0/a cout 0.01fF
+C150 adder_2/nand2_0/a adder_2/cin 1.09fF
+C151 adder_3/xor2_0/nand2_1/a adder_3/xor2_0/nand2_4/a 0.05fF
+C152 cout adder_4/nand2_0/w_n15_7# 0.03fF
+C153 adder_4/xor2_1/nand2_4/a vdd 0.72fF
+C154 adder_0/xor2_1/nand2_4/b vdd 0.45fF
+C155 a1 b1 1.17fF
+C156 adder_2/nand2_0/a adder_2/xor2_0/nand2_4/b 0.03fF
+C157 gnd adder_3/xor2_0/nand2_4/a 0.04fF
+C158 b4 adder_4/xor2_0/nand2_3/w_n15_7# 0.11fF
+C159 adder_4/xor2_1/nand2_3/w_n15_7# adder_4/xor2_1/nand2_3/a 0.14fF
+C160 adder_0/xor2_0/nand2_1/w_n15_7# vdd 0.17fF
+C161 adder_4/xor2_0/nand2_1/a adder_4/xor2_0/nand2_4/a 0.05fF
+C162 adder_0/xor2_0/nand2_4/b gnd 0.36fF
+C163 gnd adder_3/xor2_1/nand2_4/b 0.36fF
+C164 b0 adder_0/xor2_0/nand2_3/a 0.09fF
+C165 gnd adder_3/xor2_0/nand2_3/a 0.08fF
+C166 adder_3/xor2_0/nand2_4/b adder_3/xor2_0/nand2_4/a 0.09fF
+C167 adder_4/xor2_1/nand2_2/w_n15_7# adder_4/xor2_1/nand2_3/a 0.06fF
+C168 adder_3/nand2_2/b adder_3/cin 0.03fF
+C169 a3 adder_3/xor2_0/nand2_2/w_n15_7# 0.24fF
+C170 adder_2/xor2_1/nand2_3/a vdd 0.49fF
+C171 adder_2/cin adder_2/xor2_1/nand2_3/a 0.03fF
+C172 adder_0/xor2_0/nand2_4/w_n15_7# vdd 0.18fF
+C173 adder_2/xor2_1/nand2_4/w_n15_7# gnd 0.01fF
+C174 adder_1/xor2_0/nand2_1/a vdd 0.54fF
+C175 adder_3/xor2_0/nand2_4/b adder_3/xor2_0/nand2_3/a 0.05fF
+C176 vdd adder_4/nand2_2/b 0.45fF
+C177 adder_1/nand2_0/a adder_1/xor2_0/nand2_4/b 0.03fF
+C178 adder_3/xor2_0/nand2_1/w_n15_7# a3 0.13fF
+C179 adder_0/xor2_1/nand2_4/a adder_0/xor2_1/nand2_4/b 0.09fF
+C180 adder_1/nand2_2/a adder_1/nand2_2/b 0.09fF
+C181 cin0 adder_0/nand2_2/b 0.03fF
+C182 adder_0/xor2_0/nand2_3/a vdd 0.49fF
+C183 a4 adder_4/nand2_1/w_n15_7# 0.13fF
+C184 gnd adder_3/xor2_0/nand2_1/a 0.08fF
+C185 adder_2/xor2_1/nand2_1/a gnd 0.08fF
+C186 adder_4/nand2_0/w_n15_7# adder_4/nand2_2/b 0.06fF
+C187 adder_3/xor2_1/nand2_1/w_n15_7# adder_3/cin 0.13fF
+C188 adder_0/nand2_2/b vdd 0.45fF
+C189 s4 gnd 0.04fF
+C190 b2 adder_2/xor2_0/nand2_3/w_n15_7# 0.11fF
+C191 adder_4/nand2_1/w_n15_7# vdd 0.17fF
+C192 adder_4/xor2_1/nand2_1/w_n15_7# adder_4/xor2_1/nand2_1/a 0.14fF
+C193 adder_1/xor2_0/nand2_4/w_n15_7# gnd 0.01fF
+C194 adder_1/xor2_0/nand2_1/a a1 0.09fF
+C195 vdd adder_3/xor2_1/nand2_4/w_n15_7# 0.18fF
+C196 adder_1/nand2_2/a adder_1/nand2_1/w_n15_7# 0.06fF
+C197 adder_1/nand2_0/a adder_1/xor2_1/nand2_3/a 0.09fF
+C198 adder_1/xor2_1/nand2_4/a adder_1/xor2_1/nand2_1/w_n15_7# 0.06fF
+C199 adder_3/xor2_0/nand2_4/b gnd 0.36fF
+C200 adder_2/nand2_2/w_n15_7# adder_2/nand2_2/a 0.14fF
+C201 b0 adder_0/xor2_0/nand2_1/a 0.03fF
+C202 gnd adder_4/xor2_1/nand2_3/a 0.08fF
+C203 adder_1/nand2_0/a vdd 1.01fF
+C204 adder_1/nand2_0/a adder_1/xor2_1/nand2_4/b 0.03fF
+C205 adder_1/nand2_0/a adder_2/cin 0.01fF
+C206 vdd adder_3/xor2_0/nand2_1/a_n2_n7# 0.01fF
+C207 adder_1/nand2_0/w_n15_7# vdd 0.16fF
+C208 adder_2/nand2_2/b vdd 0.45fF
+C209 adder_1/nand2_0/w_n15_7# adder_2/cin 0.03fF
+C210 adder_2/cin adder_2/nand2_2/b 0.03fF
+C211 adder_3/xor2_1/nand2_2/w_n15_7# adder_3/cin 0.24fF
+C212 a3 adder_3/xor2_0/nand2_4/a 0.03fF
+C213 cout adder_4/nand2_2/a 0.07fF
+C214 adder_4/xor2_0/nand2_4/w_n15_7# vdd 0.18fF
+C215 s1 adder_1/xor2_1/nand2_4/w_n15_7# 0.06fF
+C216 adder_1/nand2_0/a adder_1/xor2_1/nand2_1/a 0.03fF
+C217 a3 adder_3/xor2_0/nand2_3/a 0.03fF
+C218 adder_0/xor2_0/nand2_1/a vdd 0.54fF
+C219 adder_4/nand2_0/a adder_4/xor2_0/nand2_4/w_n15_7# 0.06fF
+C220 adder_4/xor2_0/nand2_1/w_n15_7# adder_4/xor2_0/nand2_4/a 0.06fF
+C221 gnd adder_4/xor2_1/nand2_1/a 0.08fF
+C222 adder_2/xor2_1/nand2_4/w_n15_7# adder_2/xor2_1/nand2_4/a 0.11fF
+C223 adder_4/xor2_0/nand2_3/w_n15_7# vdd 0.18fF
+C224 adder_4/cin adder_3/nand2_2/b 0.13fF
+C225 vdd adder_3/nand2_1/w_n15_7# 0.17fF
+C226 gnd adder_3/cin 0.41fF
+C227 adder_4/xor2_0/nand2_1/a gnd 0.08fF
+C228 adder_0/nand2_2/a a0 0.03fF
+C229 adder_2/xor2_0/nand2_4/w_n15_7# gnd 0.01fF
+C230 adder_2/xor2_1/nand2_1/a adder_2/xor2_1/nand2_4/a 0.05fF
+C231 adder_0/xor2_0/nand2_4/a vdd 0.72fF
+C232 adder_2/xor2_1/nand2_4/a gnd 0.04fF
+C233 adder_3/xor2_0/nand2_1/a a3 0.09fF
+C234 adder_2/xor2_1/nand2_1/w_n15_7# vdd 0.17fF
+C235 adder_2/cin adder_2/xor2_1/nand2_1/w_n15_7# 0.13fF
+C236 cin0 adder_0/nand2_0/w_n15_7# 0.13fF
+C237 adder_0/xor2_1/nand2_1/a_n2_n7# vdd 0.01fF
+C238 gnd a3 0.10fF
+C239 adder_0/xor2_0/nand2_2/w_n15_7# adder_0/xor2_0/nand2_3/a 0.06fF
+C240 b3 adder_3/xor2_0/nand2_0/w_n15_7# 0.24fF
+C241 adder_4/nand2_2/a adder_4/nand2_2/b 0.09fF
+C242 vdd adder_4/xor2_1/nand2_1/a_n2_n7# 0.01fF
+C243 adder_4/cin adder_4/xor2_1/nand2_2/w_n15_7# 0.24fF
+C244 adder_0/xor2_1/nand2_1/a gnd 0.08fF
+C245 adder_4/xor2_1/nand2_4/b adder_4/xor2_1/nand2_4/w_n15_7# 0.11fF
+C246 adder_0/nand2_0/w_n15_7# vdd 0.16fF
+C247 adder_4/xor2_0/nand2_4/a adder_4/xor2_0/nand2_4/b 0.09fF
+C248 adder_2/nand2_0/a adder_2/xor2_1/nand2_3/w_n15_7# 0.11fF
+C249 adder_1/xor2_0/nand2_1/w_n15_7# adder_1/xor2_0/nand2_4/a 0.06fF
+C250 adder_4/xor2_1/nand2_1/w_n15_7# adder_4/cin 0.13fF
+C251 adder_1/xor2_1/nand2_0/w_n15_7# vdd 0.17fF
+C252 vdd adder_3/xor2_1/nand2_4/a 0.72fF
+C253 adder_0/xor2_1/nand2_3/a adder_0/xor2_1/nand2_4/b 0.05fF
+C254 adder_2/xor2_1/nand2_0/w_n15_7# vdd 0.17fF
+C255 adder_4/xor2_0/nand2_3/a adder_4/xor2_0/nand2_4/b 0.05fF
+C256 adder_3/nand2_0/a adder_3/xor2_0/nand2_4/w_n15_7# 0.06fF
+C257 b0 a0 1.17fF
+C258 adder_2/nand2_0/w_n15_7# vdd 0.16fF
+C259 adder_0/nand2_2/b adder_1/cin 0.13fF
+C260 b3 vdd 0.72fF
+C261 adder_4/nand2_2/a adder_4/nand2_1/w_n15_7# 0.06fF
+C262 adder_2/cin adder_2/nand2_0/w_n15_7# 0.13fF
+C263 adder_1/xor2_1/nand2_0/w_n15_7# adder_1/xor2_1/nand2_1/a 0.06fF
+C264 adder_1/xor2_0/nand2_0/w_n15_7# vdd 0.17fF
+C265 adder_2/xor2_1/nand2_3/w_n15_7# adder_2/xor2_1/nand2_3/a 0.14fF
+C266 adder_1/nand2_2/a gnd 0.08fF
+C267 adder_3/xor2_1/nand2_0/w_n15_7# adder_3/nand2_0/a 0.24fF
+C268 b4 adder_4/xor2_0/nand2_3/a 0.09fF
+C269 adder_2/xor2_1/nand2_2/w_n15_7# vdd 0.17fF
+C270 adder_1/nand2_0/a adder_1/cin 1.09fF
+C271 adder_2/xor2_1/nand2_2/w_n15_7# adder_2/cin 0.24fF
+C272 a0 vdd 0.43fF
+C273 adder_2/nand2_1/w_n15_7# vdd 0.17fF
+C274 adder_1/nand2_0/w_n15_7# adder_1/cin 0.13fF
+C275 gnd adder_4/cin 0.41fF
+C276 adder_3/xor2_1/nand2_3/w_n15_7# adder_3/xor2_1/nand2_4/b 0.06fF
+C277 cin0 adder_0/xor2_1/nand2_1/w_n15_7# 0.13fF
+C278 adder_4/xor2_1/nand2_4/b vdd 0.45fF
+C279 adder_4/xor2_0/nand2_2/w_n15_7# a4 0.24fF
+C280 cin0 adder_0/nand2_0/a 1.09fF
+C281 adder_4/xor2_1/nand2_4/b adder_4/nand2_0/a 0.03fF
+C282 adder_3/xor2_1/nand2_1/a adder_3/xor2_1/nand2_4/a 0.05fF
+C283 adder_0/xor2_1/nand2_1/w_n15_7# vdd 0.17fF
+C284 adder_0/xor2_0/nand2_3/w_n15_7# adder_0/xor2_0/nand2_3/a 0.14fF
+C285 adder_4/cin adder_4/xor2_1/nand2_3/a 0.03fF
+C286 adder_3/nand2_1/w_n15_7# adder_3/nand2_2/a 0.06fF
+C287 adder_0/xor2_1/nand2_4/w_n15_7# s0 0.06fF
+C288 adder_0/nand2_0/a vdd 1.01fF
+C289 adder_4/xor2_0/nand2_2/w_n15_7# vdd 0.17fF
+C290 adder_1/xor2_1/nand2_4/b adder_1/xor2_1/nand2_4/a 0.09fF
+C291 adder_1/xor2_1/nand2_4/a vdd 0.72fF
+C292 adder_1/xor2_0/nand2_1/a b1 0.03fF
+C293 vdd adder_3/xor2_0/nand2_4/w_n15_7# 0.18fF
+C294 adder_1/nand2_2/b vdd 0.45fF
+C295 adder_0/nand2_2/a adder_0/nand2_2/w_n15_7# 0.14fF
+C296 adder_2/nand2_0/a adder_2/xor2_1/nand2_3/a 0.09fF
+C297 b2 adder_2/xor2_0/nand2_3/a 0.09fF
+C298 adder_1/nand2_2/b adder_2/cin 0.13fF
+C299 adder_2/xor2_0/nand2_1/w_n15_7# adder_2/xor2_0/nand2_4/a 0.06fF
+C300 adder_1/nand2_2/w_n15_7# adder_1/nand2_2/b 0.11fF
+C301 cout adder_4/nand2_2/b 0.13fF
+C302 adder_4/xor2_1/nand2_1/a adder_4/cin 0.09fF
+C303 a2 adder_2/nand2_1/w_n15_7# 0.13fF
+C304 adder_1/xor2_0/nand2_4/a gnd 0.04fF
+C305 adder_3/xor2_1/nand2_4/b s3 0.03fF
+C306 adder_4/xor2_0/nand2_4/b gnd 0.36fF
+C307 adder_4/cin adder_3/cin 0.01fF
+C308 vdd adder_3/xor2_0/nand2_3/w_n15_7# 0.18fF
+C309 adder_1/xor2_1/nand2_4/a adder_1/xor2_1/nand2_1/a 0.05fF
+C310 adder_2/nand2_2/w_n15_7# adder_3/cin 0.06fF
+C311 adder_2/nand2_2/a vdd 0.49fF
+C312 adder_1/xor2_0/nand2_4/w_n15_7# adder_1/xor2_0/nand2_4/a 0.11fF
+C313 a4 adder_4/xor2_0/nand2_4/a 0.03fF
+C314 adder_0/nand2_0/w_n15_7# adder_1/cin 0.03fF
+C315 adder_3/xor2_1/nand2_0/w_n15_7# vdd 0.17fF
+C316 adder_1/xor2_0/nand2_3/a gnd 0.08fF
+C317 adder_0/xor2_1/nand2_1/w_n15_7# adder_0/xor2_1/nand2_4/a 0.06fF
+C318 adder_4/xor2_0/nand2_1/a adder_4/xor2_0/nand2_1/w_n15_7# 0.14fF
+C319 b2 adder_2/xor2_0/nand2_0/w_n15_7# 0.24fF
+C320 a0 adder_0/nand2_1/w_n15_7# 0.13fF
+C321 vdd adder_3/xor2_0/nand2_2/w_n15_7# 0.17fF
+C322 adder_1/nand2_1/w_n15_7# vdd 0.17fF
+C323 adder_3/nand2_0/a adder_3/xor2_1/nand2_4/b 0.03fF
+C324 b2 adder_2/xor2_0/nand2_1/a 0.03fF
+C325 a4 adder_4/xor2_0/nand2_3/a 0.03fF
+C326 s0 vdd 0.45fF
+C327 b4 gnd 0.94fF
+C328 adder_4/xor2_0/nand2_4/a vdd 0.72fF
+C329 adder_3/nand2_0/w_n15_7# adder_3/nand2_2/b 0.06fF
+C330 vdd adder_3/xor2_0/nand2_1/w_n15_7# 0.17fF
+C331 adder_1/xor2_0/nand2_3/w_n15_7# adder_1/xor2_0/nand2_3/a 0.14fF
+C332 adder_1/xor2_0/nand2_1/w_n15_7# vdd 0.17fF
+C333 adder_2/xor2_0/nand2_1/w_n15_7# adder_2/xor2_0/nand2_1/a 0.14fF
+C334 gnd s3 0.04fF
+C335 adder_2/xor2_1/nand2_4/w_n15_7# adder_2/xor2_1/nand2_4/b 0.11fF
+C336 adder_4/xor2_0/nand2_3/a vdd 0.49fF
+C337 adder_0/xor2_1/nand2_0/w_n15_7# adder_0/nand2_0/a 0.24fF
+C338 a0 adder_0/xor2_0/nand2_2/w_n15_7# 0.24fF
+C339 vdd adder_3/nand2_2/b 0.45fF
+C340 a1 adder_1/nand2_1/w_n15_7# 0.13fF
+C341 adder_3/xor2_1/nand2_3/a adder_3/xor2_1/nand2_4/b 0.05fF
+C342 adder_2/xor2_0/nand2_4/a gnd 0.04fF
+C343 adder_0/nand2_2/a gnd 0.08fF
+C344 gnd adder_3/nand2_0/a 1.04fF
+C345 a2 adder_2/nand2_2/a 0.03fF
+C346 b2 vdd 0.72fF
+C347 adder_2/xor2_1/nand2_4/b gnd 0.36fF
+C348 vdd adder_4/xor2_1/nand2_3/w_n15_7# 0.18fF
+C349 adder_0/xor2_0/nand2_4/b b0 0.03fF
+C350 adder_3/xor2_1/nand2_3/a adder_3/xor2_1/nand2_2/w_n15_7# 0.06fF
+C351 adder_1/xor2_0/nand2_1/w_n15_7# a1 0.13fF
+C352 adder_2/xor2_0/nand2_3/a gnd 0.08fF
+C353 gnd adder_4/xor2_1/nand2_4/w_n15_7# 0.01fF
+C354 adder_0/nand2_2/w_n15_7# vdd 0.17fF
+C355 s4 adder_4/xor2_1/nand2_4/w_n15_7# 0.06fF
+C356 adder_4/nand2_0/a adder_4/xor2_1/nand2_3/w_n15_7# 0.11fF
+C357 b2 adder_2/xor2_0/nand2_4/b 0.03fF
+C358 vdd adder_3/xor2_1/nand2_1/w_n15_7# 0.17fF
+C359 adder_3/xor2_1/nand2_0/w_n15_7# adder_3/xor2_1/nand2_1/a 0.06fF
+C360 adder_3/xor2_0/nand2_4/b adder_3/nand2_0/a 0.03fF
+C361 vdd adder_4/xor2_1/nand2_2/w_n15_7# 0.17fF
+C362 adder_2/xor2_0/nand2_1/w_n15_7# vdd 0.17fF
+C363 adder_0/xor2_1/nand2_4/w_n15_7# gnd 0.01fF
+C364 vdd adder_3/xor2_0/nand2_4/a 0.72fF
+C365 gnd adder_3/xor2_1/nand2_3/a 0.08fF
+C366 b4 adder_4/xor2_0/nand2_1/a 0.03fF
+C367 adder_0/xor2_0/nand2_1/w_n15_7# adder_0/xor2_0/nand2_1/a 0.14fF
+C368 adder_4/xor2_1/nand2_1/w_n15_7# vdd 0.17fF
+C369 adder_0/nand2_0/a adder_1/cin 0.01fF
+C370 adder_0/xor2_0/nand2_4/b vdd 0.45fF
+C371 adder_1/xor2_0/nand2_4/b gnd 0.36fF
+C372 vdd adder_3/xor2_1/nand2_4/b 0.45fF
+C373 adder_2/xor2_0/nand2_1/a gnd 0.08fF
+C374 vdd adder_3/xor2_0/nand2_3/a 0.49fF
+C375 adder_3/xor2_0/nand2_0/w_n15_7# adder_3/xor2_0/nand2_1/a 0.06fF
+C376 adder_1/xor2_1/nand2_4/a adder_1/cin 0.03fF
+C377 adder_1/xor2_0/nand2_4/w_n15_7# adder_1/xor2_0/nand2_4/b 0.11fF
+C378 adder_1/cin adder_1/nand2_2/b 0.03fF
+C379 b0 gnd 0.94fF
+C380 adder_0/xor2_0/nand2_1/w_n15_7# adder_0/xor2_0/nand2_4/a 0.06fF
+C381 vdd adder_3/xor2_1/nand2_2/w_n15_7# 0.17fF
+C382 a4 gnd 0.10fF
+C383 adder_2/xor2_1/nand2_4/w_n15_7# vdd 0.18fF
+C384 b2 a2 1.17fF
+C385 adder_2/xor2_0/nand2_4/w_n15_7# adder_2/xor2_0/nand2_4/a 0.11fF
+C386 adder_1/xor2_0/nand2_3/w_n15_7# adder_1/xor2_0/nand2_4/b 0.06fF
+C387 adder_3/nand2_0/a adder_3/cin 1.09fF
+C388 cin0 gnd 0.10fF
+C389 adder_3/nand2_2/w_n15_7# adder_3/nand2_2/b 0.11fF
+C390 vdd adder_3/xor2_0/nand2_1/a 0.54fF
+C391 adder_2/xor2_1/nand2_1/a vdd 0.54fF
+C392 adder_1/xor2_1/nand2_3/a gnd 0.08fF
+C393 adder_1/xor2_1/nand2_4/a adder_1/xor2_1/nand2_4/w_n15_7# 0.11fF
+C394 adder_2/xor2_1/nand2_1/a adder_2/cin 0.09fF
+C395 adder_0/xor2_0/nand2_4/w_n15_7# adder_0/xor2_0/nand2_4/a 0.11fF
+C396 adder_2/nand2_0/a adder_2/xor2_1/nand2_0/w_n15_7# 0.24fF
+C397 adder_2/xor2_0/nand2_1/a_n2_n7# vdd 0.01fF
+C398 adder_2/xor2_0/nand2_1/w_n15_7# a2 0.13fF
+C399 adder_1/xor2_0/nand2_0/w_n15_7# b1 0.24fF
+C400 gnd vdd 1.54fF
+C401 adder_1/xor2_1/nand2_4/b gnd 0.36fF
+C402 adder_3/xor2_1/nand2_1/w_n15_7# adder_3/xor2_1/nand2_1/a 0.14fF
+C403 adder_2/xor2_1/nand2_4/a adder_2/xor2_1/nand2_4/b 0.09fF
+C404 adder_2/cin gnd 0.41fF
+C405 s4 vdd 0.45fF
+C406 adder_2/nand2_0/a adder_2/nand2_0/w_n15_7# 0.11fF
+C407 adder_0/xor2_1/nand2_3/a adder_0/nand2_0/a 0.09fF
+C408 s0 adder_1/cin 0.04fF
+C409 adder_1/nand2_0/a adder_1/nand2_0/w_n15_7# 0.11fF
+C410 adder_4/nand2_0/a gnd 1.04fF
+C411 adder_2/xor2_0/nand2_3/w_n15_7# adder_2/xor2_0/nand2_3/a 0.14fF
+C412 adder_1/xor2_0/nand2_4/w_n15_7# vdd 0.18fF
+C413 adder_3/xor2_1/nand2_3/a adder_3/cin 0.03fF
+C414 adder_2/xor2_0/nand2_4/b gnd 0.36fF
+C415 adder_4/xor2_1/nand2_0/w_n15_7# adder_4/xor2_1/nand2_1/a 0.06fF
+C416 adder_3/xor2_0/nand2_4/b vdd 0.45fF
+C417 adder_1/xor2_1/nand2_1/a gnd 0.08fF
+C418 vdd adder_4/xor2_1/nand2_3/a 0.49fF
+C419 adder_2/xor2_0/nand2_2/w_n15_7# adder_2/xor2_0/nand2_3/a 0.06fF
+C420 adder_1/xor2_0/nand2_3/w_n15_7# vdd 0.18fF
+C421 adder_3/nand2_2/b adder_3/nand2_2/a 0.09fF
+C422 a1 gnd 0.10fF
+C423 adder_4/nand2_0/a adder_4/xor2_1/nand2_3/a 0.09fF
+C424 vdd adder_4/nand2_2/w_n15_7# 0.17fF
+C425 adder_4/xor2_0/nand2_1/a a4 0.09fF
+C426 adder_0/xor2_1/nand2_4/a gnd 0.04fF
+C427 adder_3/nand2_0/w_n15_7# adder_3/cin 0.13fF
+C428 adder_0/xor2_0/nand2_1/w_n15_7# a0 0.13fF
+C429 adder_4/xor2_1/nand2_1/a vdd 0.54fF
+C430 adder_0/nand2_2/w_n15_7# adder_1/cin 0.06fF
+C431 adder_0/nand2_2/b adder_0/nand2_0/w_n15_7# 0.06fF
+C432 adder_4/cin s3 0.04fF
+C433 adder_4/xor2_1/nand2_4/b adder_4/xor2_1/nand2_4/a 0.09fF
+C434 a2 gnd 0.10fF
+C435 vdd adder_3/cin 1.49fF
+C436 adder_1/xor2_1/nand2_1/a_n2_n7# vdd 0.01fF
+C437 adder_4/nand2_0/a adder_4/xor2_1/nand2_1/a 0.03fF
+C438 adder_4/xor2_0/nand2_1/a vdd 0.54fF
+C439 adder_2/cin adder_3/cin 0.01fF
+C440 adder_2/xor2_1/nand2_2/w_n15_7# adder_2/xor2_1/nand2_3/a 0.06fF
+C441 gnd adder_3/xor2_1/nand2_1/a 0.08fF
+C442 adder_2/xor2_0/nand2_4/w_n15_7# vdd 0.18fF
+C443 adder_1/xor2_0/nand2_0/w_n15_7# adder_1/xor2_0/nand2_1/a 0.06fF
+C444 adder_3/xor2_1/nand2_4/w_n15_7# adder_3/xor2_1/nand2_4/a 0.11fF
+C445 adder_0/xor2_0/nand2_1/a adder_0/xor2_0/nand2_4/a 0.05fF
+C446 adder_4/cin adder_3/nand2_0/a 0.01fF
+C447 adder_0/nand2_0/a adder_0/xor2_1/nand2_4/b 0.03fF
+C448 adder_2/xor2_1/nand2_4/a vdd 0.72fF
+C449 adder_2/cin adder_2/xor2_1/nand2_4/a 0.03fF
+C450 adder_2/xor2_0/nand2_4/w_n15_7# adder_2/xor2_0/nand2_4/b 0.11fF
+C451 cin0 adder_0/xor2_1/nand2_1/a 0.09fF
+C452 adder_2/xor2_0/nand2_3/w_n15_7# vdd 0.18fF
+C453 adder_0/xor2_1/nand2_3/w_n15_7# vdd 0.18fF
+C454 adder_1/nand2_0/a adder_1/xor2_1/nand2_0/w_n15_7# 0.24fF
+C455 adder_4/xor2_0/nand2_0/w_n15_7# adder_4/xor2_0/nand2_1/a 0.06fF
+C456 a0 adder_0/xor2_0/nand2_3/a 0.03fF
+C457 vdd a3 0.43fF
+C458 b1 adder_1/nand2_1/w_n15_7# 0.11fF
+C459 adder_2/xor2_0/nand2_3/w_n15_7# adder_2/xor2_0/nand2_4/b 0.06fF
+C460 adder_0/xor2_1/nand2_1/a vdd 0.54fF
+C461 adder_0/xor2_0/nand2_0/w_n15_7# b0 0.24fF
+C462 adder_2/xor2_0/nand2_2/w_n15_7# vdd 0.17fF
+C463 b4 adder_4/xor2_0/nand2_4/b 0.03fF
+C464 adder_2/xor2_1/nand2_4/w_n15_7# s2 0.06fF
+C465 adder_2/nand2_0/w_n15_7# adder_2/nand2_2/b 0.06fF
+C466 adder_0/nand2_0/a adder_0/xor2_0/nand2_4/w_n15_7# 0.06fF
+C467 gnd adder_4/nand2_2/a 0.08fF
+C468 adder_1/xor2_0/nand2_2/w_n15_7# adder_1/xor2_0/nand2_3/a 0.06fF
+C469 gnd adder_3/nand2_2/a 0.08fF
+C470 adder_1/cin gnd 0.41fF
+C471 s2 gnd 0.04fF
+C472 adder_0/xor2_0/nand2_0/w_n15_7# vdd 0.17fF
+C473 adder_3/xor2_1/nand2_3/w_n15_7# adder_3/nand2_0/a 0.11fF
+C474 adder_3/xor2_1/nand2_1/a adder_3/cin 0.09fF
+C475 adder_0/xor2_1/nand2_4/b s0 0.03fF
+C476 adder_4/xor2_0/nand2_1/a_n2_n7# vdd 0.01fF
+C477 b3 adder_3/nand2_1/w_n15_7# 0.11fF
+C478 adder_1/xor2_1/nand2_3/w_n15_7# adder_1/xor2_1/nand2_3/a 0.14fF
+C479 adder_4/cin adder_3/nand2_0/w_n15_7# 0.03fF
+C480 adder_1/nand2_2/a vdd 0.49fF
+C481 adder_4/xor2_0/nand2_1/w_n15_7# a4 0.13fF
+C482 adder_0/xor2_1/nand2_1/a adder_0/xor2_1/nand2_4/a 0.05fF
+C483 adder_1/nand2_2/a adder_2/cin 0.07fF
+C484 adder_1/xor2_1/nand2_3/w_n15_7# vdd 0.18fF
+C485 adder_0/xor2_0/nand2_4/b adder_0/xor2_0/nand2_3/w_n15_7# 0.06fF
+C486 adder_1/nand2_2/a adder_1/nand2_2/w_n15_7# 0.14fF
+C487 adder_1/xor2_1/nand2_4/b adder_1/xor2_1/nand2_3/w_n15_7# 0.06fF
+C488 adder_1/xor2_1/nand2_4/w_n15_7# gnd 0.01fF
+C489 adder_0/xor2_0/nand2_1/a a0 0.09fF
+C490 adder_1/xor2_1/nand2_2/w_n15_7# adder_1/xor2_1/nand2_3/a 0.06fF
+C491 adder_0/xor2_1/nand2_2/w_n15_7# cin0 0.24fF
+C492 adder_4/nand2_2/a adder_4/nand2_2/w_n15_7# 0.14fF
+C493 adder_4/cin vdd 1.43fF
+C494 a2 adder_2/xor2_0/nand2_2/w_n15_7# 0.24fF
+C495 adder_3/xor2_1/nand2_3/w_n15_7# adder_3/xor2_1/nand2_3/a 0.14fF
+C496 adder_2/nand2_2/w_n15_7# vdd 0.17fF
+C497 adder_1/xor2_1/nand2_2/w_n15_7# vdd 0.17fF
+C498 adder_4/nand2_0/a adder_4/cin 1.09fF
+C499 adder_4/xor2_0/nand2_1/w_n15_7# vdd 0.17fF
+C500 adder_1/xor2_0/nand2_4/a adder_1/xor2_0/nand2_4/b 0.09fF
+C501 adder_0/xor2_1/nand2_0/w_n15_7# adder_0/xor2_1/nand2_1/a 0.06fF
+C502 adder_4/nand2_0/w_n15_7# adder_4/cin 0.13fF
+C503 adder_0/xor2_1/nand2_2/w_n15_7# vdd 0.17fF
+C504 a1 adder_1/nand2_2/a 0.03fF
+C505 adder_0/xor2_1/nand2_3/a gnd 0.08fF
+C506 a0 adder_0/xor2_0/nand2_4/a 0.03fF
+C507 adder_1/xor2_1/nand2_1/w_n15_7# vdd 0.17fF
+C508 adder_1/xor2_0/nand2_3/a adder_1/xor2_0/nand2_4/b 0.05fF
+C509 adder_1/xor2_0/nand2_1/a adder_1/xor2_0/nand2_1/w_n15_7# 0.14fF
+C510 adder_1/nand2_0/w_n15_7# adder_1/nand2_2/b 0.06fF
+C511 s2 adder_3/cin 0.04fF
+C512 adder_0/xor2_0/nand2_1/a_n2_n7# vdd 0.01fF
+C513 adder_1/xor2_1/nand2_1/w_n15_7# adder_1/xor2_1/nand2_1/a 0.14fF
+C514 adder_4/xor2_1/nand2_4/a adder_4/xor2_1/nand2_1/w_n15_7# 0.06fF
+C515 s1 gnd 0.04fF
+C516 adder_2/nand2_2/b adder_2/nand2_2/a 0.09fF
+C517 vdd adder_3/xor2_1/nand2_3/w_n15_7# 0.18fF
+C518 adder_1/xor2_0/nand2_4/a vdd 0.72fF
+C519 a3 adder_3/nand2_2/a 0.03fF
+C520 adder_4/xor2_0/nand2_4/b vdd 0.45fF
+C521 b1 gnd 0.94fF
+C522 b4 a4 1.17fF
+C523 adder_4/nand2_0/a adder_4/xor2_0/nand2_4/b 0.03fF
+C524 adder_2/xor2_0/nand2_1/a adder_2/xor2_0/nand2_4/a 0.05fF
+C525 adder_1/xor2_0/nand2_3/a vdd 0.49fF
+C526 adder_3/xor2_1/nand2_3/a adder_3/nand2_0/a 0.09fF
+C527 adder_2/xor2_1/nand2_1/a adder_2/nand2_0/a 0.03fF
+C528 gnd cout 0.30fF
+C529 adder_0/xor2_0/nand2_4/b adder_0/xor2_0/nand2_4/w_n15_7# 0.11fF
+C530 adder_4/cin adder_3/nand2_2/w_n15_7# 0.06fF
+C531 adder_2/nand2_0/a gnd 1.04fF
+C532 adder_4/xor2_0/nand2_4/w_n15_7# adder_4/xor2_0/nand2_4/a 0.11fF
+C533 adder_0/nand2_2/b adder_0/nand2_2/w_n15_7# 0.11fF
+C534 adder_0/nand2_0/w_n15_7# adder_0/nand2_0/a 0.11fF
+C535 b1 adder_1/xor2_0/nand2_3/w_n15_7# 0.11fF
+C536 a1 adder_1/xor2_0/nand2_4/a 0.03fF
+C537 b4 vdd 0.72fF
+C538 gnd adder_4/xor2_1/nand2_4/a 0.04fF
+C539 adder_0/xor2_1/nand2_4/b gnd 0.36fF
+C540 adder_1/xor2_0/nand2_2/w_n15_7# vdd 0.17fF
+C541 adder_0/xor2_0/nand2_4/b adder_0/xor2_0/nand2_3/a 0.05fF
+C542 a1 adder_1/xor2_0/nand2_3/a 0.03fF
+C543 adder_0/xor2_1/nand2_3/w_n15_7# adder_0/xor2_1/nand2_3/a 0.14fF
+C544 vdd s3 0.45fF
+C545 adder_3/nand2_0/w_n15_7# adder_3/nand2_0/a 0.11fF
+C546 adder_2/xor2_0/nand2_0/w_n15_7# adder_2/xor2_0/nand2_1/a 0.06fF
+C547 b4 adder_4/xor2_0/nand2_0/w_n15_7# 0.24fF
+C548 adder_4/xor2_0/nand2_3/w_n15_7# adder_4/xor2_0/nand2_3/a 0.14fF
+C549 adder_2/xor2_0/nand2_4/a vdd 0.72fF
+C550 cout adder_4/nand2_2/w_n15_7# 0.06fF
+C551 adder_0/nand2_2/a vdd 0.49fF
+C552 adder_2/xor2_1/nand2_3/a gnd 0.08fF
+C553 adder_3/xor2_1/nand2_4/w_n15_7# adder_3/xor2_1/nand2_4/b 0.11fF
+C554 adder_4/cin adder_3/nand2_2/a 0.07fF
+C555 vdd adder_3/nand2_0/a 1.01fF
+C556 adder_0/xor2_0/nand2_4/w_n15_7# gnd 0.01fF
+C557 adder_1/xor2_0/nand2_2/w_n15_7# a1 0.24fF
+C558 adder_2/xor2_1/nand2_4/b vdd 0.45fF
+C559 adder_2/xor2_0/nand2_4/a adder_2/xor2_0/nand2_4/b 0.09fF
+C560 adder_2/xor2_0/nand2_3/a vdd 0.49fF
+C561 adder_1/cin adder_1/xor2_1/nand2_2/w_n15_7# 0.24fF
+C562 gnd adder_4/nand2_2/b 0.37fF
+C563 adder_4/xor2_1/nand2_4/w_n15_7# vdd 0.18fF
+C564 adder_1/xor2_0/nand2_1/a gnd 0.08fF
+C565 b3 adder_3/xor2_0/nand2_3/w_n15_7# 0.11fF
+C566 adder_0/xor2_0/nand2_3/a gnd 0.08fF
+C567 adder_3/nand2_2/a gnd 0.40fF
+C568 adder_3/nand2_2/w_n15_7# gnd 0.87fF
+C569 adder_3/nand2_1/w_n15_7# gnd 0.87fF
+C570 adder_3/nand2_2/b gnd 0.29fF
+C571 adder_3/nand2_0/w_n15_7# gnd 0.87fF
+C572 s3 gnd 0.46fF
+C573 adder_3/xor2_1/nand2_4/b gnd 0.45fF
+C574 adder_3/xor2_1/nand2_4/w_n15_7# gnd 0.87fF
+C575 adder_3/xor2_1/nand2_3/a gnd 0.34fF
+C576 adder_3/xor2_1/nand2_3/w_n15_7# gnd 0.87fF
+C577 adder_3/xor2_1/nand2_2/w_n15_7# gnd 0.87fF
+C578 adder_3/cin gnd 2.62fF
+C579 adder_3/xor2_1/nand2_1/a gnd 0.06fF
+C580 adder_3/xor2_1/nand2_1/w_n15_7# gnd 0.87fF
+C581 adder_3/nand2_0/a gnd 1.38fF
+C582 adder_3/xor2_1/nand2_0/w_n15_7# gnd 0.87fF
+C583 adder_3/xor2_0/nand2_4/b gnd 0.45fF
+C584 adder_3/xor2_0/nand2_4/w_n15_7# gnd 0.87fF
+C585 adder_3/xor2_0/nand2_3/a gnd 0.34fF
+C586 adder_3/xor2_0/nand2_3/w_n15_7# gnd 0.87fF
+C587 adder_3/xor2_0/nand2_2/w_n15_7# gnd 0.87fF
+C588 a3 gnd 1.75fF
+C589 adder_3/xor2_0/nand2_1/a gnd 0.06fF
+C590 adder_3/xor2_0/nand2_1/w_n15_7# gnd 0.87fF
+C591 b3 gnd 1.38fF
+C592 adder_3/xor2_0/nand2_0/w_n15_7# gnd 0.87fF
+C593 cout gnd 0.57fF
+C594 adder_4/nand2_2/a gnd 0.40fF
+C595 adder_4/nand2_2/w_n15_7# gnd 0.87fF
+C596 adder_4/nand2_1/w_n15_7# gnd 0.87fF
+C597 adder_4/nand2_2/b gnd 0.29fF
+C598 adder_4/nand2_0/w_n15_7# gnd 0.87fF
+C599 gnd gnd 25.54fF
+C600 s4 gnd 0.14fF
+C601 adder_4/xor2_1/nand2_4/b gnd 0.45fF
+C602 adder_4/xor2_1/nand2_4/w_n15_7# gnd 0.87fF
+C603 adder_4/xor2_1/nand2_3/a gnd 0.34fF
+C604 adder_4/xor2_1/nand2_3/w_n15_7# gnd 0.87fF
+C605 adder_4/xor2_1/nand2_2/w_n15_7# gnd 0.87fF
+C606 vdd gnd 17.30fF
+C607 adder_4/cin gnd 2.59fF
+C608 adder_4/xor2_1/nand2_1/a gnd 0.06fF
+C609 adder_4/xor2_1/nand2_1/w_n15_7# gnd 0.87fF
+C610 adder_4/nand2_0/a gnd 1.38fF
+C611 adder_4/xor2_1/nand2_0/w_n15_7# gnd 0.87fF
+C612 adder_4/xor2_0/nand2_4/b gnd 0.45fF
+C613 adder_4/xor2_0/nand2_4/w_n15_7# gnd 0.87fF
+C614 adder_4/xor2_0/nand2_3/a gnd 0.34fF
+C615 adder_4/xor2_0/nand2_3/w_n15_7# gnd 0.87fF
+C616 adder_4/xor2_0/nand2_2/w_n15_7# gnd 0.87fF
+C617 a4 gnd 1.75fF
+C618 adder_4/xor2_0/nand2_1/a gnd 0.06fF
+C619 adder_4/xor2_0/nand2_1/w_n15_7# gnd 0.87fF
+C620 b4 gnd 1.38fF
+C621 adder_4/xor2_0/nand2_0/w_n15_7# gnd 0.87fF
+C622 adder_2/nand2_2/a gnd 0.40fF
+C623 adder_2/nand2_2/w_n15_7# gnd 0.87fF
+C624 adder_2/nand2_1/w_n15_7# gnd 0.87fF
+C625 adder_2/nand2_2/b gnd 0.29fF
+C626 adder_2/nand2_0/w_n15_7# gnd 0.87fF
+C627 s2 gnd 0.46fF
+C628 adder_2/xor2_1/nand2_4/b gnd 0.45fF
+C629 adder_2/xor2_1/nand2_4/w_n15_7# gnd 0.87fF
+C630 adder_2/xor2_1/nand2_3/a gnd 0.34fF
+C631 adder_2/xor2_1/nand2_3/w_n15_7# gnd 0.87fF
+C632 adder_2/xor2_1/nand2_2/w_n15_7# gnd 0.87fF
+C633 adder_2/cin gnd 2.62fF
+C634 adder_2/xor2_1/nand2_1/a gnd 0.06fF
+C635 adder_2/xor2_1/nand2_1/w_n15_7# gnd 0.87fF
+C636 adder_2/nand2_0/a gnd 1.38fF
+C637 adder_2/xor2_1/nand2_0/w_n15_7# gnd 0.87fF
+C638 adder_2/xor2_0/nand2_4/b gnd 0.45fF
+C639 adder_2/xor2_0/nand2_4/w_n15_7# gnd 0.87fF
+C640 adder_2/xor2_0/nand2_3/a gnd 0.34fF
+C641 adder_2/xor2_0/nand2_3/w_n15_7# gnd 0.87fF
+C642 adder_2/xor2_0/nand2_2/w_n15_7# gnd 0.87fF
+C643 a2 gnd 1.75fF
+C644 adder_2/xor2_0/nand2_1/a gnd 0.06fF
+C645 adder_2/xor2_0/nand2_1/w_n15_7# gnd 0.87fF
+C646 b2 gnd 1.38fF
+C647 adder_2/xor2_0/nand2_0/w_n15_7# gnd 0.87fF
+C648 adder_1/nand2_2/a gnd 0.40fF
+C649 adder_1/nand2_2/w_n15_7# gnd 0.87fF
+C650 adder_1/nand2_1/w_n15_7# gnd 0.87fF
+C651 adder_1/nand2_2/b gnd 0.29fF
+C652 adder_1/nand2_0/w_n15_7# gnd 0.87fF
+C653 s1 gnd 0.47fF
+C654 adder_1/xor2_1/nand2_4/b gnd 0.45fF
+C655 adder_1/xor2_1/nand2_4/w_n15_7# gnd 0.87fF
+C656 adder_1/xor2_1/nand2_3/a gnd 0.34fF
+C657 adder_1/xor2_1/nand2_3/w_n15_7# gnd 0.87fF
+C658 adder_1/xor2_1/nand2_2/w_n15_7# gnd 0.87fF
+C659 adder_1/cin gnd 2.15fF
+C660 adder_1/xor2_1/nand2_1/a gnd 0.06fF
+C661 adder_1/xor2_1/nand2_1/w_n15_7# gnd 0.87fF
+C662 adder_1/nand2_0/a gnd 1.38fF
+C663 adder_1/xor2_1/nand2_0/w_n15_7# gnd 0.87fF
+C664 adder_1/xor2_0/nand2_4/b gnd 0.45fF
+C665 adder_1/xor2_0/nand2_4/w_n15_7# gnd 0.87fF
+C666 adder_1/xor2_0/nand2_3/a gnd 0.34fF
+C667 adder_1/xor2_0/nand2_3/w_n15_7# gnd 0.87fF
+C668 adder_1/xor2_0/nand2_2/w_n15_7# gnd 0.87fF
+C669 a1 gnd 1.75fF
+C670 adder_1/xor2_0/nand2_1/a gnd 0.06fF
+C671 adder_1/xor2_0/nand2_1/w_n15_7# gnd 0.87fF
+C672 b1 gnd 1.38fF
+C673 adder_1/xor2_0/nand2_0/w_n15_7# gnd 0.87fF
+C674 adder_0/nand2_2/a gnd 0.40fF
+C675 adder_0/nand2_2/w_n15_7# gnd 0.87fF
+C676 adder_0/nand2_1/w_n15_7# gnd 0.87fF
+C677 adder_0/nand2_2/b gnd 0.29fF
+C678 adder_0/nand2_0/w_n15_7# gnd 0.87fF
+C679 adder_0/xor2_1/nand2_4/b gnd 0.45fF
+C680 adder_0/xor2_1/nand2_4/w_n15_7# gnd 0.87fF
+C681 adder_0/xor2_1/nand2_3/a gnd 0.34fF
+C682 adder_0/xor2_1/nand2_3/w_n15_7# gnd 0.87fF
+C683 adder_0/xor2_1/nand2_2/w_n15_7# gnd 0.87fF
+C684 cin0 gnd 1.67fF
+C685 adder_0/xor2_1/nand2_1/a gnd 0.06fF
+C686 adder_0/xor2_1/nand2_1/w_n15_7# gnd 0.87fF
+C687 adder_0/nand2_0/a gnd 1.38fF
+C688 adder_0/xor2_1/nand2_0/w_n15_7# gnd 0.87fF
+C689 adder_0/xor2_0/nand2_4/b gnd 0.45fF
+C690 adder_0/xor2_0/nand2_4/w_n15_7# gnd 0.87fF
+C691 adder_0/xor2_0/nand2_3/a gnd 0.34fF
+C692 adder_0/xor2_0/nand2_3/w_n15_7# gnd 0.87fF
+C693 adder_0/xor2_0/nand2_2/w_n15_7# gnd 0.87fF
+C694 a0 gnd 1.75fF
+C695 adder_0/xor2_0/nand2_1/a gnd 0.06fF
+C696 adder_0/xor2_0/nand2_1/w_n15_7# gnd 0.87fF
+C697 b0 gnd 1.38fF
+C698 adder_0/xor2_0/nand2_0/w_n15_7# gnd 0.87fF
+
+
+
+* INDEPENDANT VOLTAGE SOURCE
+*
+*Vname +NODE -NODE VALUE
+*----- ----- ----- -----
+ VCC    vdd   gnd  DC=2.5
+
+ Va0     a0   gnd  DC=2.5
+ Va1     a1   gnd  DC=2.5
+ Va2     a2   gnd  DC=2.5
+ Va3     a3   gnd  DC=2.5
+ Va4     a4   gnd  DC=2.5
+
+ Vb0     b0   gnd  DC=2.5
+ Vb1     b1   gnd  DC=2.5
+ Vb2     b2   gnd  DC=2.5
+ Vb3     b3   gnd  DC=2.5
+ Vb4     b4   gnd  DC=2.5
+ Vcin0   cin0 gnd  DC=0
+
+
+*      TSTEP TSTOP
+*      ----- -----
+*.TRAN 0.1N  4N
+ .TRAN 100u  6m  UIC
+
+*MODELS
+*
+.include tsmc_cmos025
+
+.END
